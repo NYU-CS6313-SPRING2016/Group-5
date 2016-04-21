@@ -111,7 +111,7 @@
         .words(words.map(function(d){return { text: d[0], size: d[1]}}))
         .rotate(function(){return (~~(Math.random() * 2) - 1) * 30;})
         .font("Impact")
-        .fontSize(function(d) { return d.size/10; })//Math.sqrt(d.size);
+        .fontSize(function(d) { return Math.sqrt(d.size); })//Math.sqrt(d.size);
         .on("end", draw)
         .start(); 
             
