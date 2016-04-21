@@ -1,211 +1,186 @@
-import argparse
-import csv
-from collections import Counter
-from flask import Flask, request
-from threading import Timer, Thread
-import json
-import requests
-import pysentiment as ps
-from datetime import timedelta
-from flask import make_response, request, current_app
-from functools import update_wrapper
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Anqi Zhao, Yujia Zhai, Jingyuan Zhu, Cna Yao">
+    <link rel="icon" href="assets/images/favicon.ico">
 
-class UserClassification:
-    def __init__(self, classification):
-        self.classification = classification
-        self.users = set()
-        self.num_messages = 0
+    <title>stockatwits dashboard</title>
+    <link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/bootstrap/css/ie10-viewport-bug-workaround.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
 
-class Sector:
-    def __init__(self, name):
-        self.name = name
-        self.positive = 0
-        self.negative = 0
-        self.users = set()
-        self.num_messages = 0
-        self.words = Counter()
+  </head>
 
-class Stock:
-    def __init__(self, symbol):
-        self.symbol = symbol
-        self.positive = 0
-        self.negative = 0
-        self.users = set()
-        self.num_messages = 0
-        self.words = Counter()
+  <body>
 
-class TwitsAnalyzer:
-    def __init__(self):
-        self.stocks = {}
-        self.sectors = {}
-        self.user_classification = {}
-        self.dict = ps.HIV4()
+    <!-- Fixed navbar -->
+    <nav class="navbar navbar-default navbar-fixed-top">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="#">Stocktwits Dashboard</a>
+        </div>
+        <div id="navbar" class="navbar-collapse collapse">
+          
+          <ul class="nav navbar-nav navbar-right">
+            <a class="navbar-brand">User Classification</a>
+            <li class="dropdown">
+              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">All type Users<span class="caret"></span></a>
+              <ul class="dropdown-menu"> 
+                <li><a href="#">Investor Relation</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Suggested User</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Official User</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Others</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </nav>
 
-    def analyze(self, twit):
-        tokens = self.dict.tokenize(twit['body'])
-        score = self.dict.get_score(tokens)
-        user_info = twit['user']
-        classification_list = user_info['classification']
-        if len(classification_list) == 0:
-            classification_list.append('others')
-        for classification in classification_list:
-            if classification not in self.user_classification:
-                self.user_classification[classification] = UserClassification(classification)
-            self.user_classification[classification].users.add(user_info['username'])
-            self.user_classification[classification].num_messages += 1
-        if 'symbols' in twit:
-            for symbol_info in twit['symbols']:
-                symbol = symbol_info['symbol']
-                if symbol not in self.stocks:
-                    self.stocks[symbol] = Stock(symbol)
-                self.stocks[symbol].num_messages += 1
-                self.stocks[symbol].users.add(user_info['username'])
-                self.stocks[symbol].positive += score['Positive']
-                self.stocks[symbol].negative += score['Negative']
-                self.stocks[symbol].words.update(tokens)
-                sector = symbol_info['sector']
-                if sector is None:
-                    sector = 'others'
-                print(symbol, sector)
-                if sector not in self.sectors:
-                    self.sectors[sector] = Sector(sector)
-                self.sectors[sector].num_messages += 1
-                self.sectors[sector].users.add(user_info['username'])
-                self.sectors[sector].positive += score['Positive']
-                self.sectors[sector].negative += score['Negative']
-                self.sectors[sector].words.update(tokens)
+    <div class="container">
 
-class TwitsProducer:
-    def __init__(self, twits_file_path, num_twits):
-        self.twits_file_path = twits_file_path
-        self.num_twits = num_twits
-        self.thread = None
+      <!--  Main Chart for sentiment analysis-->
+      <div class="row">
+        <div class="col-md-6">
+              <div id = "barchart" width="70%"></div>
+        </div>
+        <div class="col-md-2">
+              <div class="test" ></div>
+        </div>
+        <div class="col-md-4" >
+            <div id="wordcloud"></div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8">
+          <div id="lineTitle" width="80%"></div>
+        </div>
+        <div class="col-md-4">
+          <ul class="message" id="messageList">
+              <li>this is a test,this is a test,this is a test,this is a test,this is a test,this is a test, this is a test,this is a test</li>
+          </ul>
 
-    def start(self):
-        self.twits_file = open(self.twits_file_path)
-        if self.thread is None:
-            self.thread = Timer(1, self.produce_twits)
-            self.thread.start()
+        </div>
+      </div>
 
-    def stop(self):
-        if self.thread is not None:
-            self.thread.cancel()
-            self.thread = None
-            self.twits_file.close()
+    </div> <!-- /container -->
+  </body>
+  <!-- Bootstrap core JavaScript==================== -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.2/jquery.min.js"></script>
+  <script>window.jQuery || document.write('<script src="assets/bootstrap/js/jquery.min.js"><\/script>')</script>
+  <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+  <script src="assets/bootstrap/js/ie10-viewport-bug-workaround.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js"></script>
+  <script src="assets/d3/d3.layout.cloud.js"></script>
+  <script src="assets/js/barchart.js"></script>
+  <script src="assets/js/radia.js"></script>
+  <script src="assets/js/linechart.js"></script>
 
-    def produce_twits(self):
-        for i in range(self.num_twits):
-            twit = json.loads(self.twits_file.readline())
-            global analyzer
-            analyzer.analyze(twit)
-            if not twit:
-                self.stop()
-        self.thread = Timer(1, self.produce_twits)
-        self.thread.start()
+  <script>
+  //wordcloud
 
-app = Flask(__name__)
+  d3.json("http://127.0.0.1:5000/stock?symbol=AAPL", function(error, result){
+      if(error) {
+          return console.warn(error);
+      };
+      var color = d3.scale.linear()
+          .range(["#FF6666","#3399FF"])
+          .domain([1,15]);
 
-def crossdomain(origin=None, methods=None, headers=None,
-                max_age=21600, attach_to_all=True,
-                automatic_options=True):
-    if methods is not None:
-        methods = ', '.join(sorted(x.upper() for x in methods))
-    if headers is not None and not isinstance(headers, basestring):
-        headers = ', '.join(x.upper() for x in headers)
-    if not isinstance(origin, basestring):
-        origin = ', '.join(origin)
-    if isinstance(max_age, timedelta):
-        max_age = max_age.total_seconds()
+      console.log(result["words"][5][1]);
 
-    def get_methods():
-        if methods is not None:
-            return methods
+      var words = [];
+      var cloudWidth = 390,
+          cloudHeight = 280;
 
-        options_resp = current_app.make_default_options_response()
-        return options_resp.headers['allow']
+        //the first 150 frequency words
+      for(var i = 0; i < 150; i++){
+        words.push([result["words"][i][0], result["words"][i][1]]);          
+      }
 
-    def decorator(f):
-        def wrapped_function(*args, **kwargs):
-            if automatic_options and request.method == 'OPTIONS':
-                resp = current_app.make_default_options_response()
-            else:
-                resp = make_response(f(*args, **kwargs))
-            if not attach_to_all and request.method != 'OPTIONS':
-                return resp
 
-            h = resp.headers
+      //draw(wordcloud);0
+      d3.layout.cloud().size([cloudWidth, cloudHeight])
+        .words(words.map(function(d){return { text: d[0], size: d[1]}}))
+        .rotate(function(){return (~~(Math.random() * 2) - 1) * 30;})
+        .font("Impact")
+        .fontSize(function(d) { return d.size/10; })//Math.sqrt(d.size);
+        .on("end", draw)
+        .start(); 
+            
+      function draw(words) {  
+        d3.select("#wordcloud").append("svg")
+            .attr("width", cloudWidth)
+            .attr("height", cloudHeight)
+            .attr("class", "wordcloud")
+            .append("g")
+              .attr("transform", "translate(" + (cloudWidth/2 -10) + "," + cloudHeight/2 + ")")
+            .selectAll("text")
+              .data(words)
+            .enter().append("text")
+              .style("font-size", function(d) { return d.size + "px"; })
+              .style("font-family", "Impact")
+              .style("fill", function(d, i) { return color(i); })
+              .attr("text-anchor", "middle")
+              .attr("transform", function(d) {
+                  return "translate(" + [d.x,d.y] + ")rotate(" + d.rotate + ")";
+              })
+            .transition()
+            .duration(600)
+            .style("opacity",0.9)
+            .text(function(d) { return d.text; });
+      }  
+      //console.log(data["positive"]);
+      var positive = result["position"];
+      var negative = result["negative"];
+            
+      var progress = new RadialProgressChart('.test', {
+            diameter: 50,
+            series: [
+            {
+                labelStart: '\uF105',
+                value: 0,
+                color: {
+                linearGradient: { x1: '0%', y1: '100%', x2: '50%', y2: '0%', spreadMethod: 'pad' },
+                stops: [{offset: '100%', 'stop-color': '#ccddee', 'stop-opacity': 1},
+                        {offset: '100%', 'stop-color': '#ffffff', 'stop-opacity': 1}]}
+            }],
+            center: function (d) {
+                if(positive > negative){return positive;}
+                else{return negative;}
+            }
+        });
 
-            h['Access-Control-Allow-Origin'] = origin
-            h['Access-Control-Allow-Methods'] = get_methods()
-            h['Access-Control-Max-Age'] = str(max_age)
-            if headers is not None:
-                h['Access-Control-Allow-Headers'] = headers
-            return resp
+        function loop(p) {
+            if (p > 100) {
+                setTimeout(function () {loop(75)}, 300)} 
+            else {  progress.update(p);
+                setTimeout(function () {loop(p + 1)}, 90)}    
+        }
 
-        f.provide_automatic_options = False
-        return update_wrapper(wrapped_function, f)
-    return decorator
+        loop(75);       
+  });
 
-@app.route('/sector', methods=['GET'])
-@crossdomain(origin='*')
-def handle_sector_request():
-    sector_name = request.args['sector']
-    global analyzer
-    sector = Sector(sector_name)
-    if sector_name in analyzer.sectors:
-        sector = analyzer.sectors[sector_name]
-    return json.dumps({
-        'users': len(sector.users),
-        'messages': sector.num_messages,    
-        'positive': sector.positive,
-        'negative': sector.negative,
-        'words': sector.words.most_common(500)
-    })
+    // //Message List
 
-@app.route('/stock', methods=['GET'])
-@crossdomain(origin='*')
-def handle_stock_request():
-    symbol = request.args['symbol']
-    global analyzer
-    stock = Stock(symbol)
-    if symbol in analyzer.stocks:
-        stock = analyzer.stocks[symbol]
-    return json.dumps({
-        'users': len(stock.users),
-        'messages': stock.num_messages,
-        'positive': stock.positive,
-        'negative': stock.negative,
-        'words': stock.words.most_common(500)
-    })
+    // d3.json("2010.json", function(error, data){
+    //     if(error) {
+    //         console.log(data[2]);
+    //         return console.log(error);
 
-@app.route('/user_classification', methods=['GET'])
-@crossdomain(origin='*')
-def handle_user_classification_request():
-    classification_name = request.args['classification']
-    global analyzer
-    classification = UserClassification(classification_name)
-    if classification_name in analyzer.user_classification:
-        classification = analyzer.user_classification[classification_name]
-    return json.dumps({
-        'users': len(classification.users),
-        'messages': classification.num_messages
-    })
+    //     };
+        
+    //     // var selction = list.selectAll("li")
+    //     //   .data(data, function(d,i){ return d.})
+    // });
 
-if __name__ == '__main__':
-    parser = argparse.ArgumentParser()
-    parser.add_argument('--replay')
-    parser.add_argument('--num_twits', type=int, default=1)
-    args = parser.parse_args()
 
-    if args.replay is not None:
-        global producer
-        producer = TwitsProducer(args.replay, args.num_twits)
-        global analyzer
-        analyzer = TwitsAnalyzer()
-        producer.start()
-        app.run(debug=True)
-        producer.stop()
-    else:
-        global analyzer
-        analyzer = TwitsAnalyzer()
-        app.run(debug=True)
+</script>
+</html>
