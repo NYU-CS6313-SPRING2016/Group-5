@@ -1,0 +1,100 @@
+body {
+    min-height: 2000px;
+    padding-top: 50px;
+    font-family:"Lucida Grande","Droid Sans",Arial,Helvetica,sans-serif;
+    background-color: black;
+}
+
+h4 {
+    color: white; 
+}
+.row {
+    margin-bottom: 20px;
+}
+.row .row {
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+[class*="col-"] {
+    padding-top: 15px;
+    padding-bottom: 5px;
+    background-color: #eee;
+    background-color: rgba(86,61,124,.15);
+    border: 1px solid #3399FF;
+    border-radius: 5px 5px 5px 5px;
+    border: 1px solid rgba(86,61,124,.2);
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+/*WordCloud*/
+.message {
+    font-size: 1em;
+    color: #FFFFCC;
+}
+.bld {
+    font-weight: bold;
+}
+#wordcloud div {
+
+}
+
+/*BarChart*/
+#barchart{
+
+}
+#chart{
+    background-color: aqua;
+}
+.axis {
+    font: 10px sans-serif;
+}
+.axis path,
+.axis text,
+.axis line {
+    fill: none;
+    stroke: white;
+    stroke-width: 0.7;
+    shape-rendering: crispEdges;
+    }
+.y.axis path {
+    display: none;
+}
+
+/*Treemap*/
+form {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.node {
+  border: solid 1px white;
+  font: 10px sans-serif;
+  line-height: 12px;
+  overflow: hidden;
+  position: absolute;
+  text-indent: 2px;
+}
+/*LineChart*/
+path { 
+    stroke: yellow;
+}
+ 
+.axis path,
+.axis text,
+.axis line {
+    stroke: white;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+            
+           
+#lineTitle {
+    color: white;
+}
+
+

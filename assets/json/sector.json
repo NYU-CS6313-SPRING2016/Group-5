@@ -1,0 +1,1122 @@
+[
+  {
+    "id": 1,
+    "name": "Basic Materials",
+    "path_name": "basic-materials"
+  },
+  {
+    "id": 2,
+    "name": "Industrial Metals & Minerals",
+    "path_name": "basic-materials/industrial-metals-minerals"
+  },
+  {
+    "id": 3,
+    "name": "Consumer Goods",
+    "path_name": "consumer-goods"
+  },
+  {
+    "id": 4,
+    "name": "Office Supplies",
+    "path_name": "consumer-goods/office-supplies"
+  },
+  {
+    "id": 5,
+    "name": "Services",
+    "path_name": "services"
+  },
+  {
+    "id": 6,
+    "name": "Rental & Leasing Services",
+    "path_name": "services/rental-leasing-services"
+  },
+  {
+    "id": 7,
+    "name": "Utilities",
+    "path_name": "utilities"
+  },
+  {
+    "id": 8,
+    "name": "Electric Utilities",
+    "path_name": "utilities/electric-utilities"
+  },
+  {
+    "id": 9,
+    "name": "Healthcare",
+    "path_name": "healthcare"
+  },
+  {
+    "id": 10,
+    "name": "Long-Term Care Facilities",
+    "path_name": "healthcare/long-term-care-facilities"
+  },
+  {
+    "id": 11,
+    "name": "Major Integrated Oil & Gas",
+    "path_name": "basic-materials/major-integrated-oil-gas"
+  },
+  {
+    "id": 12,
+    "name": "Industrial Goods",
+    "path_name": "industrial-goods"
+  },
+  {
+    "id": 13,
+    "name": "Heavy Construction",
+    "path_name": "industrial-goods/heavy-construction"
+  },
+  {
+    "id": 14,
+    "name": "Aerospace/Defense Products & Services",
+    "path_name": "industrial-goods/aerospace-defense-products-services"
+  },
+  {
+    "id": 15,
+    "name": "Medical Instruments & Supplies",
+    "path_name": "healthcare/medical-instruments-supplies"
+  },
+  {
+    "id": 16,
+    "name": "Processed & Packaged Goods",
+    "path_name": "consumer-goods/processed-packaged-goods"
+  },
+  {
+    "id": 17,
+    "name": "Specialized Health Services",
+    "path_name": "healthcare/specialized-health-services"
+  },
+  {
+    "id": 18,
+    "name": "Gold",
+    "path_name": "basic-materials/gold"
+  },
+  {
+    "id": 19,
+    "name": "Biotechnology",
+    "path_name": "healthcare/biotechnology"
+  },
+  {
+    "id": 20,
+    "name": "Technology",
+    "path_name": "technology"
+  },
+  {
+    "id": 21,
+    "name": "Semiconductor - Integrated Circuits",
+    "path_name": "technology/semiconductor-integrated-circuits"
+  },
+  {
+    "id": 22,
+    "name": "Textile - Apparel Clothing",
+    "path_name": "consumer-goods/textile-apparel-clothing"
+  },
+  {
+    "id": 23,
+    "name": "Medical Appliances & Equipment",
+    "path_name": "healthcare/medical-appliances-equipment"
+  },
+  {
+    "id": 24,
+    "name": "Financial",
+    "path_name": "financial"
+  },
+  {
+    "id": 25,
+    "name": "Property Management",
+    "path_name": "financial/property-management"
+  },
+  {
+    "id": 26,
+    "name": "Auto Parts",
+    "path_name": "consumer-goods/auto-parts"
+  },
+  {
+    "id": 27,
+    "name": "Waste Management",
+    "path_name": "industrial-goods/waste-management"
+  },
+  {
+    "id": 28,
+    "name": "Diagnostic Substances",
+    "path_name": "healthcare/diagnostic-substances"
+  },
+  {
+    "id": 29,
+    "name": "Drug Manufacturers - Major",
+    "path_name": "healthcare/drug-manufacturers-major"
+  },
+  {
+    "id": 30,
+    "name": "Nonmetallic Mineral Mining",
+    "path_name": "basic-materials/nonmetallic-mineral-mining"
+  },
+  {
+    "id": 31,
+    "name": "Closed-End Fund - Debt",
+    "path_name": "financial/closed-end-fund-debt"
+  },
+  {
+    "id": 32,
+    "name": "Specialty Eateries",
+    "path_name": "services/specialty-eateries"
+  },
+  {
+    "id": 33,
+    "name": "Communication Equipment",
+    "path_name": "technology/communication-equipment"
+  },
+  {
+    "id": 34,
+    "name": "Regional - Northeast Banks",
+    "path_name": "financial/regional-northeast-banks"
+  },
+  {
+    "id": 35,
+    "name": "Savings & Loans",
+    "path_name": "financial/savings-loans"
+  },
+  {
+    "id": 36,
+    "name": "Management Services",
+    "path_name": "services/management-services"
+  },
+  {
+    "id": 37,
+    "name": "Jewelry Stores",
+    "path_name": "services/jewelry-stores"
+  },
+  {
+    "id": 38,
+    "name": "Closed-End Fund - Foreign",
+    "path_name": "financial/closed-end-fund-foreign"
+  },
+  {
+    "id": 39,
+    "name": "Independent Oil & Gas",
+    "path_name": "basic-materials/independent-oil-gas"
+  },
+  {
+    "id": 40,
+    "name": "Diversified Investments",
+    "path_name": "financial/diversified-investments"
+  },
+  {
+    "id": 41,
+    "name": "Cigarettes",
+    "path_name": "consumer-goods/cigarettes"
+  },
+  {
+    "id": 42,
+    "name": "Photographic Equipment & Supplies",
+    "path_name": "consumer-goods/photographic-equipment-supplies"
+  },
+  {
+    "id": 43,
+    "name": "Sporting Activities",
+    "path_name": "services/sporting-activities"
+  },
+  {
+    "id": 44,
+    "name": "Personal Products",
+    "path_name": "consumer-goods/personal-products"
+  },
+  {
+    "id": 45,
+    "name": "Industrial Equipment & Components",
+    "path_name": "industrial-goods/industrial-equipment-components"
+  },
+  {
+    "id": 46,
+    "name": "Closed-End Fund - Equity",
+    "path_name": "financial/closed-end-fund-equity"
+  },
+  {
+    "id": 47,
+    "name": "Machine Tools & Accessories",
+    "path_name": "industrial-goods/machine-tools-accessories"
+  },
+  {
+    "id": 48,
+    "name": "Rubber & Plastics",
+    "path_name": "consumer-goods/rubber-plastics"
+  },
+  {
+    "id": 49,
+    "name": "Basic Materials Wholesale",
+    "path_name": "services/basic-materials-wholesale"
+  },
+  {
+    "id": 50,
+    "name": "Wholesale, Other",
+    "path_name": "services/wholesale-other"
+  },
+  {
+    "id": 51,
+    "name": "Business Software & Services",
+    "path_name": "technology/business-software-services"
+  },
+  {
+    "id": 52,
+    "name": "Oil & Gas Pipelines",
+    "path_name": "basic-materials/oil-gas-pipelines"
+  },
+  {
+    "id": 53,
+    "name": "Home Furnishings & Fixtures",
+    "path_name": "consumer-goods/home-furnishings-fixtures"
+  },
+  {
+    "id": 54,
+    "name": "Auto Parts Wholesale",
+    "path_name": "services/auto-parts-wholesale"
+  },
+  {
+    "id": 55,
+    "name": "Real Estate Development",
+    "path_name": "financial/real-estate-development"
+  },
+  {
+    "id": 56,
+    "name": "Staffing & Outsourcing Services",
+    "path_name": "services/staffing-outsourcing-services"
+  },
+  {
+    "id": 57,
+    "name": "Diversified Machinery",
+    "path_name": "industrial-goods/diversified-machinery"
+  },
+  {
+    "id": 58,
+    "name": "Auto Manufacturers - Major",
+    "path_name": "consumer-goods/auto-manufacturers-major"
+  },
+  {
+    "id": 59,
+    "name": "Food Wholesale",
+    "path_name": "services/food-wholesale"
+  },
+  {
+    "id": 60,
+    "name": "Diversified Electronics",
+    "path_name": "technology/diversified-electronics"
+  },
+  {
+    "id": 61,
+    "name": "Sporting Goods Stores",
+    "path_name": "services/sporting-goods-stores"
+  },
+  {
+    "id": 62,
+    "name": "Security & Protection Services",
+    "path_name": "services/security-protection-services"
+  },
+  {
+    "id": 63,
+    "name": "Gas Utilities",
+    "path_name": "utilities/gas-utilities"
+  },
+  {
+    "id": 64,
+    "name": "Recreational Goods, Other",
+    "path_name": "consumer-goods/recreational-goods-other"
+  },
+  {
+    "id": 65,
+    "name": "Application Software",
+    "path_name": "technology/application-software"
+  },
+  {
+    "id": 66,
+    "name": "Scientific & Technical Instruments",
+    "path_name": "technology/scientific-technical-instruments"
+  },
+  {
+    "id": 67,
+    "name": "Oil & Gas Equipment & Services",
+    "path_name": "basic-materials/oil-gas-equipment-services"
+  },
+  {
+    "id": 68,
+    "name": "Long Distance Carriers",
+    "path_name": "technology/long-distance-carriers"
+  },
+  {
+    "id": 69,
+    "name": "Consumer Services",
+    "path_name": "services/consumer-services"
+  },
+  {
+    "id": 70,
+    "name": "Internet Service Providers",
+    "path_name": "technology/internet-service-providers"
+  },
+  {
+    "id": 71,
+    "name": "Resorts & Casinos",
+    "path_name": "services/resorts-casinos"
+  },
+  {
+    "id": 72,
+    "name": "Steel & Iron",
+    "path_name": "basic-materials/steel-iron"
+  },
+  {
+    "id": 73,
+    "name": "Restaurants",
+    "path_name": "services/restaurants"
+  },
+  {
+    "id": 74,
+    "name": "Specialty Chemicals",
+    "path_name": "basic-materials/specialty-chemicals"
+  },
+  {
+    "id": 75,
+    "name": "REIT - Office",
+    "path_name": "financial/reit-office"
+  },
+  {
+    "id": 76,
+    "name": "Regional - Mid-Atlantic Banks",
+    "path_name": "financial/regional-mid-atlantic-banks"
+  },
+  {
+    "id": 77,
+    "name": "Metal Fabrication",
+    "path_name": "industrial-goods/metal-fabrication"
+  },
+  {
+    "id": 78,
+    "name": "Silver",
+    "path_name": "basic-materials/silver"
+  },
+  {
+    "id": 79,
+    "name": "REIT - Retail",
+    "path_name": "financial/reit-retail"
+  },
+  {
+    "id": 80,
+    "name": "Diversified Utilities",
+    "path_name": "utilities/diversified-utilities"
+  },
+  {
+    "id": 81,
+    "name": "Textile Industrial",
+    "path_name": "industrial-goods/textile-industrial"
+  },
+  {
+    "id": 82,
+    "name": "Advertising Agencies",
+    "path_name": "services/advertising-agencies"
+  },
+  {
+    "id": 83,
+    "name": "Industrial Electrical Equipment",
+    "path_name": "industrial-goods/industrial-electrical-equipment"
+  },
+  {
+    "id": 84,
+    "name": "Printed Circuit Boards",
+    "path_name": "technology/printed-circuit-boards"
+  },
+  {
+    "id": 85,
+    "name": "Mortgage Investment",
+    "path_name": "financial/mortgage-investment"
+  },
+  {
+    "id": 86,
+    "name": "REIT - Hotel/Motel",
+    "path_name": "financial/reit-hotel-motel"
+  },
+  {
+    "id": 87,
+    "name": "Oil & Gas Refining & Marketing",
+    "path_name": "basic-materials/oil-gas-refining-marketing"
+  },
+  {
+    "id": 88,
+    "name": "Technical & System Software",
+    "path_name": "technology/technical-system-software"
+  },
+  {
+    "id": 89,
+    "name": "Specialty Retail, Other",
+    "path_name": "services/specialty-retail-other"
+  },
+  {
+    "id": 90,
+    "name": "Housewares & Accessories",
+    "path_name": "consumer-goods/housewares-accessories"
+  },
+  {
+    "id": 91,
+    "name": "Drug Manufacturers - Other",
+    "path_name": "healthcare/drug-manufacturers-other"
+  },
+  {
+    "id": 92,
+    "name": "Oil & Gas Drilling & Exploration",
+    "path_name": "basic-materials/oil-gas-drilling-exploration"
+  },
+  {
+    "id": 93,
+    "name": "Investment Brokerage - National",
+    "path_name": "financial/investment-brokerage-national"
+  },
+  {
+    "id": 94,
+    "name": "Education & Training Services",
+    "path_name": "services/education-training-services"
+  },
+  {
+    "id": 95,
+    "name": "Computer Peripherals",
+    "path_name": "technology/computer-peripherals"
+  },
+  {
+    "id": 96,
+    "name": "Conglomerates",
+    "path_name": "conglomerates/conglomerates"
+  },
+  {
+    "id": 97,
+    "name": "Regional - Southeast Banks",
+    "path_name": "financial/regional-southeast-banks"
+  },
+  {
+    "id": 98,
+    "name": "Electronic Equipment",
+    "path_name": "consumer-goods/electronic-equipment"
+  },
+  {
+    "id": 99,
+    "name": "Broadcasting - TV",
+    "path_name": "services/broadcasting-tv"
+  },
+  {
+    "id": 100,
+    "name": "Paper & Paper Products",
+    "path_name": "consumer-goods/paper-paper-products"
+  },
+  {
+    "id": 101,
+    "name": "REIT - Industrial",
+    "path_name": "financial/reit-industrial"
+  },
+  {
+    "id": 102,
+    "name": "Regional - Midwest Banks",
+    "path_name": "financial/regional-midwest-banks"
+  },
+  {
+    "id": 103,
+    "name": "REIT - Diversified",
+    "path_name": "financial/reit-diversified"
+  },
+  {
+    "id": 104,
+    "name": "Internet Information Providers",
+    "path_name": "technology/internet-information-providers"
+  },
+  {
+    "id": 105,
+    "name": "Beverages - Wineries & Distillers",
+    "path_name": "consumer-goods/beverages-wineries-distillers"
+  },
+  {
+    "id": 106,
+    "name": "Agricultural Chemicals",
+    "path_name": "basic-materials/agricultural-chemicals"
+  },
+  {
+    "id": 107,
+    "name": "Credit Services",
+    "path_name": "financial/credit-services"
+  },
+  {
+    "id": 108,
+    "name": "Meat Products",
+    "path_name": "consumer-goods/meat-products"
+  },
+  {
+    "id": 109,
+    "name": "Computers Wholesale",
+    "path_name": "services/computers-wholesale"
+  },
+  {
+    "id": 110,
+    "name": "Broadcasting - Radio",
+    "path_name": "services/broadcasting-radio"
+  },
+  {
+    "id": 111,
+    "name": "Electronics Wholesale",
+    "path_name": "services/electronics-wholesale"
+  },
+  {
+    "id": 112,
+    "name": "Hospitals",
+    "path_name": "healthcare/hospitals"
+  },
+  {
+    "id": 113,
+    "name": "Trucks & Other Vehicles",
+    "path_name": "consumer-goods/trucks-other-vehicles"
+  },
+  {
+    "id": 114,
+    "name": "Food - Major Diversified",
+    "path_name": "consumer-goods/food-major-diversified"
+  },
+  {
+    "id": 115,
+    "name": "Semiconductor Equipment & Materials",
+    "path_name": "technology/semiconductor-equipment-materials"
+  },
+  {
+    "id": 116,
+    "name": "Property & Casualty Insurance",
+    "path_name": "financial/property-casualty-insurance"
+  },
+  {
+    "id": 117,
+    "name": "Internet Software & Services",
+    "path_name": "technology/internet-software-services"
+  },
+  {
+    "id": 118,
+    "name": "Technical Services",
+    "path_name": "services/technical-services"
+  },
+  {
+    "id": 119,
+    "name": "Asset Management",
+    "path_name": "financial/asset-management"
+  },
+  {
+    "id": 120,
+    "name": "Trucking",
+    "path_name": "services/trucking"
+  },
+  {
+    "id": 121,
+    "name": "Life Insurance",
+    "path_name": "financial/life-insurance"
+  },
+  {
+    "id": 122,
+    "name": "General Building Materials",
+    "path_name": "industrial-goods/general-building-materials"
+  },
+  {
+    "id": 123,
+    "name": "Personal Computers",
+    "path_name": "technology/personal-computers"
+  },
+  {
+    "id": 124,
+    "name": "Air Services, Other",
+    "path_name": "services/air-services-other"
+  },
+  {
+    "id": 125,
+    "name": "Exchange Traded Fund",
+    "path_name": "financial/exchange-traded-fund"
+  },
+  {
+    "id": 126,
+    "name": "Business Services",
+    "path_name": "services/business-services"
+  },
+  {
+    "id": 127,
+    "name": "Recreational Vehicles",
+    "path_name": "consumer-goods/recreational-vehicles"
+  },
+  {
+    "id": 128,
+    "name": "Chemicals - Major Diversified",
+    "path_name": "basic-materials/chemicals-major-diversified"
+  },
+  {
+    "id": 129,
+    "name": "Regional - Southwest  Banks",
+    "path_name": "financial/regional-southwest-banks"
+  },
+  {
+    "id": 130,
+    "name": "Research Services",
+    "path_name": "services/research-services"
+  },
+  {
+    "id": 131,
+    "name": "Semiconductor - Specialized",
+    "path_name": "technology/semiconductor-specialized"
+  },
+  {
+    "id": 132,
+    "name": "Drug Delivery",
+    "path_name": "healthcare/drug-delivery"
+  },
+  {
+    "id": 133,
+    "name": "Information Technology Services",
+    "path_name": "technology/information-technology-services"
+  },
+  {
+    "id": 134,
+    "name": "Healthcare Information Services",
+    "path_name": "technology/healthcare-information-services"
+  },
+  {
+    "id": 135,
+    "name": "Pollution & Treatment Controls",
+    "path_name": "industrial-goods/pollution-treatment-controls"
+  },
+  {
+    "id": 136,
+    "name": "Sporting Goods",
+    "path_name": "consumer-goods/sporting-goods"
+  },
+  {
+    "id": 137,
+    "name": "Home Health Care",
+    "path_name": "healthcare/home-health-care"
+  },
+  {
+    "id": 138,
+    "name": "Gaming Activities",
+    "path_name": "services/gaming-activities"
+  },
+  {
+    "id": 139,
+    "name": "REIT - Residential",
+    "path_name": "financial/reit-residential"
+  },
+  {
+    "id": 140,
+    "name": "Air Delivery & Freight Services",
+    "path_name": "services/air-delivery-freight-services"
+  },
+  {
+    "id": 141,
+    "name": "Drugs - Generic",
+    "path_name": "healthcare/drugs-generic"
+  },
+  {
+    "id": 142,
+    "name": "Farm Products",
+    "path_name": "consumer-goods/farm-products"
+  },
+  {
+    "id": 143,
+    "name": "Regional Airlines",
+    "path_name": "services/regional-airlines"
+  },
+  {
+    "id": 144,
+    "name": "Telecom Services - Domestic",
+    "path_name": "technology/telecom-services-domestic"
+  },
+  {
+    "id": 145,
+    "name": "Wireless Communications",
+    "path_name": "technology/wireless-communications"
+  },
+  {
+    "id": 146,
+    "name": "Marketing Services",
+    "path_name": "services/marketing-services"
+  },
+  {
+    "id": 147,
+    "name": "CATV Systems",
+    "path_name": "services/catv-systems"
+  },
+  {
+    "id": 148,
+    "name": "Accident & Health Insurance",
+    "path_name": "financial/accident-health-insurance"
+  },
+  {
+    "id": 149,
+    "name": "Regional - Pacific Banks",
+    "path_name": "financial/regional-pacific-banks"
+  },
+  {
+    "id": 150,
+    "name": "Catalog & Mail Order Houses",
+    "path_name": "services/catalog-mail-order-houses"
+  },
+  {
+    "id": 151,
+    "name": "Appliances",
+    "path_name": "consumer-goods/appliances"
+  },
+  {
+    "id": 152,
+    "name": "Grocery Stores",
+    "path_name": "services/grocery-stores"
+  },
+  {
+    "id": 153,
+    "name": "Railroads",
+    "path_name": "services/railroads"
+  },
+  {
+    "id": 154,
+    "name": "Water Utilities",
+    "path_name": "utilities/water-utilities"
+  },
+  {
+    "id": 155,
+    "name": "Farm & Construction Machinery",
+    "path_name": "industrial-goods/farm-construction-machinery"
+  },
+  {
+    "id": 156,
+    "name": "Networking & Communication Devices",
+    "path_name": "technology/networking-communication-devices"
+  },
+  {
+    "id": 157,
+    "name": "Security Software & Services",
+    "path_name": "technology/security-software-services"
+  },
+  {
+    "id": 158,
+    "name": "Apparel Stores",
+    "path_name": "services/apparel-stores"
+  },
+  {
+    "id": 159,
+    "name": "Semiconductor - Broad Line",
+    "path_name": "technology/semiconductor-broad-line"
+  },
+  {
+    "id": 160,
+    "name": "Multimedia & Graphics Software",
+    "path_name": "technology/multimedia-graphics-software"
+  },
+  {
+    "id": 161,
+    "name": "Drug Related Products",
+    "path_name": "healthcare/drug-related-products"
+  },
+  {
+    "id": 162,
+    "name": "Home Furnishing Stores",
+    "path_name": "services/home-furnishing-stores"
+  },
+  {
+    "id": 163,
+    "name": "Diversified Communication Services",
+    "path_name": "technology/diversified-communication-services"
+  },
+  {
+    "id": 164,
+    "name": "Building Materials Wholesale",
+    "path_name": "services/building-materials-wholesale"
+  },
+  {
+    "id": 165,
+    "name": "Packaging & Containers",
+    "path_name": "consumer-goods/packaging-containers"
+  },
+  {
+    "id": 166,
+    "name": "Medical Laboratories & Research",
+    "path_name": "healthcare/medical-laboratories-research"
+  },
+  {
+    "id": 167,
+    "name": "Drug Stores",
+    "path_name": "services/drug-stores"
+  },
+  {
+    "id": 168,
+    "name": "Home Improvement Stores",
+    "path_name": "services/home-improvement-stores"
+  },
+  {
+    "id": 169,
+    "name": "Entertainment - Diversified",
+    "path_name": "services/entertainment-diversified"
+  },
+  {
+    "id": 170,
+    "name": "Department Stores",
+    "path_name": "services/department-stores"
+  },
+  {
+    "id": 171,
+    "name": "Textile - Apparel Footwear & Accessories",
+    "path_name": "consumer-goods/textile-apparel-footwear-accessories"
+  },
+  {
+    "id": 172,
+    "name": "Foreign Regional Banks",
+    "path_name": "financial/foreign-regional-banks"
+  },
+  {
+    "id": 173,
+    "name": "Data Storage Devices",
+    "path_name": "technology/data-storage-devices"
+  },
+  {
+    "id": 174,
+    "name": "Beverages - Brewers",
+    "path_name": "consumer-goods/beverages-brewers"
+  },
+  {
+    "id": 175,
+    "name": "General Contractors",
+    "path_name": "industrial-goods/general-contractors"
+  },
+  {
+    "id": 176,
+    "name": "Computer Based Systems",
+    "path_name": "technology/computer-based-systems"
+  },
+  {
+    "id": 177,
+    "name": "Aluminum",
+    "path_name": "basic-materials/aluminum"
+  },
+  {
+    "id": 178,
+    "name": "Industrial Equipment Wholesale",
+    "path_name": "services/industrial-equipment-wholesale"
+  },
+  {
+    "id": 179,
+    "name": "Residential Construction",
+    "path_name": "industrial-goods/residential-construction"
+  },
+  {
+    "id": 180,
+    "name": "Medical Equipment Wholesale",
+    "path_name": "services/medical-equipment-wholesale"
+  },
+  {
+    "id": 181,
+    "name": "Business Equipment",
+    "path_name": "consumer-goods/business-equipment"
+  },
+  {
+    "id": 182,
+    "name": "Insurance Brokers",
+    "path_name": "financial/insurance-brokers"
+  },
+  {
+    "id": 183,
+    "name": "Movie Production, Theaters",
+    "path_name": "services/movie-production-theaters"
+  },
+  {
+    "id": 184,
+    "name": "Personal Services",
+    "path_name": "services/personal-services"
+  },
+  {
+    "id": 185,
+    "name": "Money Center Banks",
+    "path_name": "financial/money-center-banks"
+  },
+  {
+    "id": 186,
+    "name": "Beverages - Soft Drinks",
+    "path_name": "consumer-goods/beverages-soft-drinks"
+  },
+  {
+    "id": 187,
+    "name": "Electronics Stores",
+    "path_name": "services/electronics-stores"
+  },
+  {
+    "id": 188,
+    "name": "Discount, Variety Stores",
+    "path_name": "services/discount-variety-stores"
+  },
+  {
+    "id": 189,
+    "name": "Shipping",
+    "path_name": "services/shipping"
+  },
+  {
+    "id": 190,
+    "name": "Auto Dealerships",
+    "path_name": "services/auto-dealerships"
+  },
+  {
+    "id": 191,
+    "name": "Diversified Computer Systems",
+    "path_name": "technology/diversified-computer-systems"
+  },
+  {
+    "id": 192,
+    "name": "Publishing - Books",
+    "path_name": "services/publishing-books"
+  },
+  {
+    "id": 193,
+    "name": "Manufactured Housing",
+    "path_name": "industrial-goods/manufactured-housing"
+  },
+  {
+    "id": 194,
+    "name": "Telecom Services - Foreign",
+    "path_name": "technology/telecom-services-foreign"
+  },
+  {
+    "id": 195,
+    "name": "Lodging",
+    "path_name": "services/lodging"
+  },
+  {
+    "id": 196,
+    "name": "Publishing - Newspapers",
+    "path_name": "services/publishing-newspapers"
+  },
+  {
+    "id": 197,
+    "name": "Health Care Plans",
+    "path_name": "healthcare/health-care-plans"
+  },
+  {
+    "id": 198,
+    "name": "Information & Delivery Services",
+    "path_name": "technology/information-delivery-services"
+  },
+  {
+    "id": 199,
+    "name": "Toys & Games",
+    "path_name": "consumer-goods/toys-games"
+  },
+  {
+    "id": 200,
+    "name": "Music & Video Stores",
+    "path_name": "services/music-video-stores"
+  },
+  {
+    "id": 201,
+    "name": "Synthetics",
+    "path_name": "basic-materials/synthetics"
+  },
+  {
+    "id": 202,
+    "name": "Medical Practitioners",
+    "path_name": "healthcare/medical-practitioners"
+  },
+  {
+    "id": 203,
+    "name": "Confectioners",
+    "path_name": "consumer-goods/confectioners"
+  },
+  {
+    "id": 204,
+    "name": "Semiconductor- Memory Chips",
+    "path_name": "technology/semiconductor-memory-chips"
+  },
+  {
+    "id": 205,
+    "name": "Surety & Title Insurance",
+    "path_name": "financial/surety-title-insurance"
+  },
+  {
+    "id": 206,
+    "name": "Lumber, Wood Production",
+    "path_name": "industrial-goods/lumber-wood-production"
+  },
+  {
+    "id": 207,
+    "name": "Investment Brokerage - Regional",
+    "path_name": "financial/investment-brokerage-regional"
+  },
+  {
+    "id": 208,
+    "name": "Small Tools & Accessories",
+    "path_name": "industrial-goods/small-tools-accessories"
+  },
+  {
+    "id": 209,
+    "name": "Copper",
+    "path_name": "basic-materials/copper"
+  },
+  {
+    "id": 210,
+    "name": "Dairy Products",
+    "path_name": "consumer-goods/dairy-products"
+  },
+  {
+    "id": 211,
+    "name": "General Entertainment",
+    "path_name": "services/general-entertainment"
+  },
+  {
+    "id": 212,
+    "name": "Cleaning Products",
+    "path_name": "consumer-goods/cleaning-products"
+  },
+  {
+    "id": 213,
+    "name": "Auto Parts Stores",
+    "path_name": "services/auto-parts-stores"
+  },
+  {
+    "id": 214,
+    "name": "Processing Systems & Products",
+    "path_name": "technology/processing-systems-products"
+  },
+  {
+    "id": 215,
+    "name": "Publishing - Periodicals",
+    "path_name": "services/publishing-periodicals"
+  },
+  {
+    "id": 216,
+    "name": "Major Airlines",
+    "path_name": "services/major-airlines"
+  },
+  {
+    "id": 217,
+    "name": "REIT - Healthcare Facilities",
+    "path_name": "financial/reit-healthcare-facilities"
+  },
+  {
+    "id": 218,
+    "name": "Drugs Wholesale",
+    "path_name": "services/drugs-wholesale"
+  },
+  {
+    "id": 219,
+    "name": "Aerospace/Defense - Major Diversified",
+    "path_name": "industrial-goods/aerospace-defense-major-diversified"
+  },
+  {
+    "id": 220,
+    "name": "Tobacco Products, Other",
+    "path_name": "consumer-goods/tobacco-products-other"
+  },
+  {
+    "id": 221,
+    "name": "Toy & Hobby Stores",
+    "path_name": "services/toy-hobby-stores"
+  },
+  {
+    "id": 222,
+    "name": "Foreign Money Center Banks",
+    "path_name": "financial/foreign-money-center-banks"
+  },
+  {
+    "id": 223,
+    "name": "Foreign Utilities",
+    "path_name": "utilities/foreign-utilities"
+  },
+  {
+    "id": 224,
+    "name": "Cement",
+    "path_name": "industrial-goods/cement"
+  }
+]
