@@ -1,0 +1,876 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Anqi Zhao, Yujia Zhai, Jingyuan Zhu, Can Yao">
+    <meta name="keyword" content="Dashboard, Bootstrap, jQuery">
+    <link rel="icon" href="assets/images/favicon.ico">
+
+    <title>Stocktwits Dashboard</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+    <!--external css-->
+    <link href="assets/font-awesome/css/font-awesome.css" rel="stylesheet" />   
+    <link href="assets/css/style.css" rel="stylesheet">
+    <link href="assets/css/style-responsive.css" rel="stylesheet">
+    <style>
+        canvas {
+            -moz-user-select: none;
+            -webkit-user-select: none;
+            -ms-user-select: none;
+        }
+    </style>
+  </head>
+
+  <body>
+    <!-- Main Content -->
+    <section id="container" >
+        <!--header start-->
+        <header class="header black-bg">
+            <div class="sidebar-toggle-box">
+                <div class="fa fa-bars tooltips" data-placement="right" data-original-title="Toggle Navigation"></div>
+            </div>
+            <!--logo start-->
+            <a href="index.html" class="logo"><strong>Stocktwits Dashboard</strong></a>
+            <!--logo end-->
+
+            <div class="nav notify-row" id="top_menu">    
+            </div>
+
+            <!-- Scale Rect Gradient -->
+            <div class="top-menu">
+              <ul class="nav top-menu">
+                    <div id="gradient" width="70%"></div>
+              </ul>
+            </div>
+        </header>
+        <!--header end-->
+
+        <!--Sector Menu Start-->
+        <aside>
+            <div id="sidebar" class="nav-collapse ">
+                <!-- sidebar menu start-->
+                <ul class="sidebar-menu" id="nav-accordion">
+                    <div class="border-head">
+                          <h3>Industry (Message Sum)</h3>
+                    </div>
+              	    <div id = "barchart" width="70%"></div>
+                </ul>
+                <!-- Sector Menu End-->
+            </div>
+        </aside>
+        <!--sidebar end-->
+        
+        <!--Stock Content Start-->
+        <section id="main-content">
+            <section class="wrapper">
+                <div class="row">
+                    <div class="main-chart col-lg-9">
+
+                        <!--First Line -->
+                        <div class="row mt">
+                            <!--Treemap START -->
+                            <div class="border-head">
+                                <h3>Top 20 Stocks</h3>
+                            </div>
+                            <div id="treemap"></div>
+                        </div>
+                        <!-- /Treemap end--> 
+
+                        <!--Second Line -->
+                        <div class="row mt">
+                              <!-- global stock hearder -->
+                              <div class="border-head">
+                                  <h3>Stock : <span id="symbol"></span></h3>
+                              </div>
+                  						<!-- Market Mood -->
+                  						<div class="col-md-7 col-sm-4 mb">
+                                  <div class="darkblue-panel pn">
+                      								<div id="canvas3" width="220" height="180">
+                                          <canvas id="barCanvas"></canvas>
+                                      </div>
+                                  </div>
+                  						</div>
+                              <!-- /Market Mood -->
+                  						
+                  						<!-- Stock Price and Time -->
+                  						<div class="col-md-5 col-sm-4 mb">
+                                  <div class="darkblue-panel pn">
+                  								    <div id="canvas2" width="220" height="180">
+                                          <canvas id="donutChart"></canvas>
+                                      </div>
+                                  </div>
+                  						</div>
+                              <!-- /Stock Price and Time -->
+                  			</div><!-- /row -->
+
+                        <!--Third Line -->
+                        <div class="row mt">
+                            <!--Line Chart Message/STOCK -->
+                              <div>
+                                  <canvas id="stockLine" width = "600" height = "200"></canvas>
+                              </div>
+                              <div>
+                                  <canvas id="messageLine" width = "600" height = "200"></canvas>
+                              </div>
+                        </div>
+                        <!-- /Line Chart Message/STOCK End -->
+            
+                    </div><!-- /MainChart -->
+                    
+                    <div class="col-lg-3 ds">                  
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details0">
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details1">
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details2">
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details3">
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details4">
+                            
+                          </div>
+                        </div>
+
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details5">
+                            
+                          </div>
+                        </div>
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details6">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details7">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details8">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details9">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details10">
+                            
+                          </div>
+                        </div>
+
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details11">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details12">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details13">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details14">
+                            
+                          </div>
+                        </div>
+
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details15">
+                            
+                          </div>
+                        </div>
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details16">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details17">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details18">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details19">
+                            
+                          </div>
+                        </div>
+
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details20">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details21">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details22">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details23">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details24">
+                            
+                          </div>
+                        </div>
+
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details25">
+                            
+                          </div>
+                        </div>
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details26">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details27">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details28">
+                            
+                          </div>
+                        </div>
+                        
+                        <div class="desc">
+                          <div class="thumb">
+                            <span class="badge bg-theme"><i class="fa fa-clock-o"></i></span>
+                          </div>
+                          <div class="details" id="details29">
+                            
+                          </div>
+                        </div>
+
+                       
+
+                    </div><!-- /col-lg-3 -->
+                </div><!--/row -->
+            </section>
+        </section>
+        <div class="tooltip">
+            <table id="table1"> 
+                <tr>
+                 <td id = "row1" width = "55%"></td>
+                 <th id = "datatable1"></th>
+             </tr>
+   
+             <tr>
+                 <td id = "row2" width = "55%"></td>
+                 <th id = "datatable2"></th>
+             </tr>
+  
+             <tr>
+                 <td id = "row3" width = "55%"></td>
+                 <th id = "datatable3"></th>
+             </tr>
+             <tr>
+                 <td id = "row4" width = "55%"></td>
+                 <th id = "datatable4"></th>
+             </tr>
+
+             <tr>
+                 <td id = "row5" width = "55%"></td>
+                 <th id = "datatable5"></th>
+             </tr>
+
+             <tr>
+                 <td id = "row6" width = "55%"></td>
+                 <th id = "datatable6"></th>
+             </tr>
+            </table>
+        </div>
+    </section>
+    <!--main content end-->
+
+    <!-- js placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/jquery-1.8.3.min.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script class="include" type="text/javascript" src="assets/js/jquery.dcjqaccordion.2.7.js"></script>
+    <script src="assets/js/jquery.scrollTo.min.js"></script>
+    <script src="assets/js/jquery.nicescroll.js" type="text/javascript"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" type="text/javascript"></script>
+
+
+    <!--common script for all pages-->
+    <script src="assets/js/common-scripts.js"></script>
+    <script type="text/javascript">var myName = "AAPL";</script>
+
+    <!--script for this page-->
+
+    <script src="http://d3js.org/d3.v3.min.js"></script>
+
+    <script src="assets/js/chart/d3.layout.cloud.js"></script>
+    <script src="assets/js/chart/wordcloud.js"></script>
+
+    <script src="assets/js/chart/barchart.js"></script>
+    <script src="assets/js/chart/final.js"></script>
+    
+    <!--<script src="assets/js/chart/list.js"></script>-->
+  
+    <script src="assets/js/chart/Chart.bundle.js"></script>
+    <script src="assets/js/chart/moment.min.js"></script>
+    <script>
+      function newDate(hours) {
+          return moment().add(hours, 'h').toDate();
+      }
+      
+      function newDateString(hours) {
+          return moment().add(hours, 'h').format();
+      }
+
+      window.onload = function() {
+          var ctx = document.getElementById("messageLine").getContext("2d");
+          window.messageLine = new Chart(ctx, lineConfig);
+
+          // window.userRadar = new Chart(document.getElementById("userWeight"), userConfig);
+
+          var ctx3 = document.getElementById("stockLine").getContext("2d");
+          window.stockLine = new Chart(ctx3, stockConfig);
+
+          var ctx4 = document.getElementById("donutChart").getContext("2d");
+          window.donutChart = new Chart(ctx4, donutConfig);
+
+          var ctx2 = document.getElementById("barCanvas").getContext("2d");
+          window.myBar = new Chart(ctx2, {
+              type: 'bar',
+              data: barChartData,
+              options: {
+                  title:{
+                      display: true,
+                      text: "User Distribution"
+                  },
+                  tooltips: {
+                      mode: 'label'
+                  },
+                  responsive: true,
+                  scales: {
+                      xAxes: [{
+                          stacked: true,
+                      }],
+                      yAxes: [{
+                          stacked: true
+                      }]
+                  }
+              }
+          });
+
+      };
+
+       var realtimeUrl = 'http://stocktwitsfinal.herokuapp.com/realtime_stock?symbol=';
+      var historyurl = 'http://stocktwitsfinal.herokuapp.com/stock?symbol=';
+      var dbUrlStock = 'http://stocktwitsprice.herokuapp.com/price?symbol=';
+      var urlStock = 'http://query.yahooapis.com/v1/public/yql?q=select%20*%20from%20yahoo.finance.quotes%20where%20symbol%3D%22';
+      var string ='%22&format=json&env=store%3A%2F%2Fdatatables.org%2Falltableswithkeys&callback=';
+      var userUrl = 'http://stocktwitsfinal.herokuapp.com/realtime_user_radar';
+
+      var message = [];
+      var obj = [];
+
+      var listUrl = 'https://api.stocktwits.com/api/2/streams/symbol/';
+      var urlstring ='.json';
+      var panel = "details";
+      //User Bar Chart
+      var randomBarFactor = function() {
+          return (Math.random() > 0.5 ? 2.0 : 1.0) * Math.round(Math.random() * 100);
+      };
+
+      var barChartData = {
+          labels: ["Swing Trader", "Day Trader", "Professional", "Intermediate", "Novice", "Suggested", "Official"],
+          datasets: [{
+              label: 'Positive',
+              backgroundColor: "rgba(255,102,102,0.5)",
+              data: []
+          },{
+              label: 'Negative',
+              backgroundColor: "rgba(51,153,255,0.5)",
+              data: []
+          }]
+      };
+      setInterval(function(){
+          $.ajax({
+              
+              url: userUrl,
+              header : "Access-control-allow-origin:*",
+              type: "GET",
+              dataType: 'JSON',
+              success: function(user){  
+                  barAnimate();
+                  function barAnimate(){ 
+                    var a = user["swing_trader"];
+                    var b = user["day_trader"];
+                    var c = user["professional"];
+                    var d = user["intermediate"];
+                    var e = user["novice"];
+                    var f = user["suggested"];
+                    var g = user["official"];
+                    barChartData.datasets[0].data[0] = a["positive"];
+                    barChartData.datasets[0].data[1] = b["positive"];
+                    barChartData.datasets[0].data[2] = c["positive"];
+                    barChartData.datasets[0].data[3] = d["positive"];
+                    barChartData.datasets[0].data[4] = e["positive"];
+                    barChartData.datasets[0].data[5] = f["positive"];
+                    barChartData.datasets[0].data[6] = g["positive"];
+                    barChartData.datasets[1].data[0] = a["negative"];
+                    barChartData.datasets[1].data[1] = b["negative"];
+                    barChartData.datasets[1].data[2] = c["negative"];
+                    barChartData.datasets[1].data[3] = d["negative"];
+                    barChartData.datasets[1].data[4] = e["negative"];
+                    barChartData.datasets[1].data[5] = f["negative"]; 
+                    barChartData.datasets[1].data[6] = g["negative"];                      
+                    window.myBar.update();
+                  }
+              }
+          });
+      }, 60*1000);
+      
+
+      //Sentiment Line Chart
+      
+      var lineConfig = {
+          type: 'line',
+          data: {
+              datasets: [{
+                  label: 'Positive ',
+                  fill: false,
+                  borderColor: "#FF6666",
+                  borderWidth: 0.5,
+                  lineTension: 0.1,
+                  pointBorderColor: "#FF6666",
+                  pointBackgroundColor: "#252C3E",
+                  pointBorderWidth: 0.5,
+                  pointRadius:0.5,
+                  pointHoverRadius: 0.5,
+                  pointHoverBackgroundColor: "#FF6666",
+                  pointHoverBorderColor: "rgba(220,220,220,1)",
+                  pointHoverBorderWidth: 0.5,
+                  data: [{
+                  }],
+                  fill: false
+              }, {
+                  label: 'Negative ',
+                  fill: false,
+                  borderColor: "#3399FF",
+                  borderWidth: 0.5,
+                  lineTension: 0.1,
+                  pointBorderColor: "#3399FF",
+                  pointBackgroundColor: "#252C3E",
+                  pointBorderWidth: 0.5,
+                  pointRadius:0.5,
+                  pointHoverRadius: 0.5,
+                  pointHoverBackgroundColor: "#3399FF",
+                  pointHoverBorderColor: "rgba(220,220,220,1)",
+                  pointHoverBorderWidth: 0.5,
+                  data: [{
+                  }],
+                  fill: false
+              }]
+          },
+          options: {
+              responsive: true,
+              scales: {
+                  xAxes: [{
+                      type: "time",
+                      display: true,
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Time'
+                      }
+                  }, ],
+                  yAxes: [{
+                      display: true,
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Message Sum'
+                      }
+                  }]
+              }
+          }
+      };
+
+      setInterval(function(){
+          $.ajax({
+              url: dbUrlStock.concat(myName),
+              header : "Access-control-allow-origin:*",
+              type: "GET",
+              dataType: 'JSON',
+              success: function(message){  
+                  lineAnimate();
+                  function lineAnimate(){
+
+                      var lastTime = messageLine.scales['x-axis-0'].labelMoments[0].length ? messageLine.scales['x-axis-0'].labelMoments[0][messageLine.scales['x-axis-0'].labelMoments[0].length-1] : moment();
+
+                      var newTime = lastTime
+                          .clone()
+                          .add(5, 's')
+                          .format('MM/DD/YYYY HH:mm:ss');
+                          
+                      lineConfig.data.datasets[0].data.push({
+                          x: newTime,
+                          y: message["positive"] 
+                      });
+                      lineConfig.data.datasets[1].data.push({
+                          x: newTime,
+                          y: message["negative"] 
+                      });
+                      
+                      window.messageLine.update();
+                      
+                  }
+              }
+          });
+      }, 120*1000);
+      
+      //Stock Line
+      var stockConfig = {
+          type: 'line',
+          data: {
+              datasets: [{
+                  label: 'Symbol ',
+                  fill: false,
+                  borderColor: "#FFFFCC",
+                  borderWidth: 0.5,
+                  lineTension: 0.1,
+                  pointBorderColor: "#FFFFCC",
+                  pointBackgroundColor: "#252C3E",
+                  pointBorderWidth: 0.5,
+                  pointRadius:0.5,
+                  pointHoverRadius: 0.5,
+                  pointHoverBackgroundColor: "#FFFFCC",
+                  pointHoverBorderColor: "rgba(220,220,220,1)",
+                  pointHoverBorderWidth: 0.5,
+                  data: [{
+                  }],
+
+                  fill: false
+              }]
+          },
+
+          options: {
+              responsive: true,
+              scales: {
+                  xAxes: [{
+                      type: "time",
+                      display: true,
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Time'
+                      }
+                  }, ],
+                  yAxes: [{
+                      display: true,
+                      scaleLabel: {
+                          display: true,
+                          labelString: 'Price Value'
+                      }
+                  }]
+              }
+          }
+      };      
+
+      function newDateString(hours) {
+          return moment().add(hours, 'h').format();
+      } 
+
+      //var symbol = "AAPL";
+
+      setInterval(function(){
+          $.ajax({
+              url: dbUrlStock.concat("AAPL"),
+              header : "access-control-allow-origin:*",
+              type: "GET",
+              dataType: 'JSON',
+              success: function(price){  
+                  console.log(price);
+                  lineAnimate();
+                  function lineAnimate(){
+                      if (stockConfig.data.datasets.length > 0) {
+                          var lastTime = messageLine.scales['x-axis-0'].labelMoments[0].length ? messageLine.scales['x-axis-0'].labelMoments[0][messageLine.scales['x-axis-0'].labelMoments[0].length - 1] : moment();
+
+                          var newTime = lastTime
+                              .clone()
+                              .add(5, 's')
+                              .format('MM/DD/YYYY HH:mm:ss');
+                          console.log("lineFunction")
+                          for (var index = 0; index < stockConfig.data.datasets.length; ++index) {
+                              console.log("push");
+                              stockConfig.data.datasets[index].data.push({
+                                  x: newTime,
+                                  y: price["query"]["results"]["quote"]["Bid"] 
+                              });
+                          }
+                          window.stockLine.update();
+                      }
+                      
+                  }
+              }
+          });
+        console.log(myName);
+      }, 5*1000);
+      
+      var donutConfig = {
+        type: 'doughnut',
+        data: {
+            datasets: [{
+                data: [
+                ],
+                backgroundColor: [
+                ]
+            }],
+            labels: [ 
+            ],
+        },
+        options: {
+            responsive: true,
+            cutoutPercentage: 50,
+            rotation: -1 * Math.PI,
+            legend: {
+                position: 'top',
+            },
+            title: {
+                display: true,
+                text: 'Market Mood'
+            }
+        }
+    };
+
+    setInterval(moodRequest(myName), 5*1000);
+
+    function moodRequest(symbol){
+        $.ajax({
+            
+            url: historyurl.concat(symbol),
+            header : "Access-control-allow-origin:*",
+            type: "GET",
+            dataType: 'JSON',
+            success: function(data){ 
+                var positiveUserSum = data["positive"];
+                var negativeUserSum = data["negative"];
+                var positiveColor = "#FF6666";
+                var negativeColor = "#3399FF";
+
+                addHistoryMood();
+
+                function addHistoryMood() {
+
+                    donutConfig.data.labels[0] = "Positive";
+                    donutConfig.data.labels[1] = "Negative";
+
+                    donutConfig.data.datasets[0].data[0] = positiveUserSum;
+
+                    donutConfig.data.datasets[0].backgroundColor.push([positiveColor]); 
+
+                    donutConfig.data.datasets[0].data[1] = negativeUserSum;
+
+                    donutConfig.data.datasets[0].backgroundColor.push(negativeColor);
+                    window.donutChart.update();
+
+                };
+            }
+        });
+    }
+
+    listRequest(myName);
+        
+    function listRequest(symbol){
+        $.ajax({
+            url: listUrl.concat(symbol).concat(urlstring),
+            header : "access-control-allow-origin:*",
+            type: "POST",
+            async: false,
+            dataType: 'JSONP',
+            beforeSend: function(xhr) {
+                 xhr.setRequestHeader('Authorization', 'OAuth 596252e9f51ec0f19dacf6281dd9cb65d50a4c74')
+            }, 
+            success: function(data){
+                console.log(myName)
+                message = data.messages;
+                for(var j = 0; j < message.length;j++){
+                    var time_element = document.createElement("p");
+                    time_element.id = "time"+j;
+                    document.getElementById(panel.concat(j)).appendChild(time_element);
+                    
+                    var name_element = document.createElement("a");
+                    name_element.id = "name"+j;
+                    
+                    var message_element = document.createElement("p");
+                    message_element.id = "message"+j;
+                    
+                    document.getElementById(panel.concat(j)).appendChild(name_element);
+                    
+                    document.getElementById(panel.concat(j)).appendChild(message_element);
+                    
+                }
+                for (var i = 0; i < message.length; i++){
+                    var body = message[i]["body"];
+                    var user = message[i]["user"]["name"];
+                    var time = message[i]["created_at"];
+                    
+                    var timeid = "time" + i;
+                    var nameid = "name" + i;
+                    var messageid = "message" + i;
+                    
+                    var timeNode = document.getElementById(timeid);
+                    timeNode.innerHTML = "";
+
+                    var nameNode = document.getElementById(nameid);
+                    nameNode.innerHTML = "";
+                    
+
+                    var messageNode = document.getElementById(messageid);
+                    messageNode.innerHTML = "";
+                    messageNode.appendChild(messageBody);
+                
+                }
+            }
+        });
+    }
+          
+    </script>
+
+  </body>
+</html>
