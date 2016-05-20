@@ -1,0 +1,3381 @@
+[
+    {
+    "id":686,
+    "stock":"AAPL",
+    "name":"Apple Inc.",
+    "sector":"Technology",
+    "industry":"Personal Computers"
+  },
+    {
+    "id":5593,
+    "stock":"GS",
+    "name":"The Goldman Sachs Group, Inc.",
+    "sector":"Financial",
+    "industry":"Diversified Investments"
+  },
+    {
+    "id":2044,
+    "stock":"GOOG",
+    "name":"Alphabet Inc. Class C",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+    {
+    "id":7271,
+    "stock":"SPY",
+    "name":"SPDR S&P 500",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":864,
+    "stock":"AMZN",
+    "name":"Amazon.com Inc.",
+    "sector":"Services",
+    "industry":"Catalog & Mail Order Houses"
+  },
+    {
+    "id":3493,
+    "stock":"SEED",
+    "name":"Origin Agritech Limited",
+    "sector":"Consumer Goods",
+    "industry":"Farm Products"
+  },
+    {
+    "id":1073,
+    "stock":"BIDU",
+    "name":"Baidu, Inc.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+    {
+    "id":5281,
+    "stock":"F",
+    "name":"Ford Motor Co.",
+    "sector":"Consumer Goods",
+    "industry":"Auto Manufacturers - Major"
+  },
+    {
+    "id":4438,
+    "stock":"BAC",
+    "name":"Bank of America Corporation",
+    "sector":"Financial",
+    "industry":"Money Center Banks"
+  },
+    {
+    "id":5539,
+    "stock":"GLD",
+    "name":"SPDR Gold Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":6020,
+    "stock":"JPM",
+    "name":"JPMorgan Chase & Co.",
+    "sector":"Financial",
+    "industry":"Money Center Banks"
+  },
+    {
+    "id":3379,
+    "stock":"BBRY",
+    "name":"BlackBerry",
+    "sector":"Technology",
+    "industry":"Diversified Communication Services"
+  },
+    {
+    "id":4296,
+    "stock":"AIG",
+    "name":"American International Group, Inc.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+    {
+    "id":6855,
+    "stock":"POT",
+    "name":"Potash Corp. of Saskatchewan, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Agricultural Chemicals"
+  },
+    {
+    "id":5290,
+    "stock":"FAS",
+    "name":"Direxion Daily Financial Bull 3X Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":2839,
+    "stock":"NFLX",
+    "name":"Netflix, Inc.",
+    "sector":"Services",
+    "industry":"Music & Video Stores"
+  },
+    {
+    "id":7789,
+    "stock":"X",
+    "name":"United States Steel Corp.",
+    "sector":"Basic Materials",
+    "industry":"Steel & Iron"
+  },
+    {
+    "id":708,
+    "stock":"ACAS",
+    "name":"American Capital, Ltd.",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+    {
+    "id":2039,
+    "stock":"GOLD",
+    "name":"Randgold Resources Ltd.",
+    "sector":"Basic Materials",
+    "industry":"Gold"
+  },
+    {
+    "id":1949,
+    "stock":"FSLR",
+    "name":"First Solar, Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Specialized"
+  },
+    {
+    "id":5786,
+    "stock":"IBM",
+    "name":"International Business Machines Corp.",
+    "sector":"Technology",
+    "industry":"Diversified Computer Systems"
+  },
+    {
+    "id":3387,
+    "stock":"RMBS",
+    "name":"Rambus Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor- Memory Chips"
+  },
+    {
+    "id":2310,
+    "stock":"INTC",
+    "name":"Intel Corporation",
+    "sector":"Technology",
+    "industry":"Semiconductor - Broad Line"
+  },
+    {
+    "id":7816,
+    "stock":"XLF",
+    "name":"Financial Select Sector SPDR",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":4202,
+    "stock":"AA",
+    "name":"Alcoa Inc.",
+    "sector":"Basic Materials",
+    "industry":"Aluminum"
+  },
+    {
+    "id":4152,
+    "stock":"WYNN",
+    "name":"Wynn Resorts Ltd.",
+    "sector":"Services",
+    "industry":"Resorts & Casinos"
+  },
+    {
+    "id":7568,
+    "stock":"UNG",
+    "name":"United States Natural Gas",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":7718,
+    "stock":"WFC",
+    "name":"Wells Fargo & Company",
+    "sector":"Financial",
+    "industry":"Money Center Banks"
+  },
+    {
+    "id":2277,
+    "stock":"IMAX",
+    "name":"IMAX Corporation",
+    "sector":"Services",
+    "industry":"Entertainment - Diversified"
+  },
+    {
+    "id":5310,
+    "stock":"FCX",
+    "name":"Freeport-McMoRan Copper & Gold Inc.",
+    "sector":"Basic Materials",
+    "industry":"Copper"
+  },
+     {
+    "id":1784,
+    "stock":"ETFC",
+    "name":"E*TRADE Financial Corporation",
+    "sector":"Financial",
+    "industry":"Investment Brokerage - National"
+  },
+    {
+    "id":7474,
+    "stock":"TSL",
+    "name":"Trina Solar Ltd.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Specialized"
+  },
+    {
+    "id":1,
+    "stock":"AAC",
+    "name":"AAC Holdings",
+    "sector":"Conglomerates",
+    "industry":"Conglomerates"
+  },
+  {
+    "id":2,
+    "stock":"AAU",
+    "name":"Almaden Minerals Ltd.",
+    "sector":"Basic Materials",
+    "industry":"Industrial Metals & Minerals"
+  },
+  {
+    "id":3,
+    "stock":"ABL",
+    "name":"American Biltrite Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Rubber & Plastics"
+  },
+  {
+    "id":4,
+    "stock":"ACU",
+    "name":"Acme United Corp.",
+    "sector":"Consumer Goods",
+    "industry":"Office Supplies"
+  },
+  {
+    "id":5,
+    "stock":"ACY",
+    "name":"AeroCentury Corp.",
+    "sector":"Services",
+    "industry":"Rental & Leasing Services"
+  },
+  {
+    "id":6,
+    "stock":"ADGI",
+    "name":"Allied Defense Group Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Aerospace/Defense Products & Services"
+  },
+  {
+    "id":7,
+    "stock":"ADK",
+    "name":"AdCare Health Systems Inc.",
+    "sector":"Healthcare",
+    "industry":"Long-Term Care Facilities"
+  },
+  {
+    "id":9,
+    "stock":"AE",
+    "name":"Adams Resources & Energy Inc.",
+    "sector":"Basic Materials",
+    "industry":"Major Integrated Oil & Gas"
+  },
+  {
+    "id":10,
+    "stock":"AEN",
+    "name":"Adeona Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":11,
+    "stock":"AEZ",
+    "name":"American Oil & Gas Inc.",
+    "sector":"Basic Materials",
+    "industry":"Independent Oil & Gas"
+  },
+    {
+    "id":618,
+    "stock":"WLB",
+    "name":"Westmoreland Coal Co.",
+    "sector":"Basic Materials",
+    "industry":"Nonmetallic Mineral Mining"
+  },
+  {
+    "id":619,
+    "stock":"WMH",
+    "name":"Wireless HOLDRs",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":622,
+    "stock":"WTT",
+    "name":"Wireless Telecom Group Inc.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":623,
+    "stock":"WYY",
+    "name":"WidePoint Corp.",
+    "sector":"Services",
+    "industry":"Technical Services"
+  },
+  {
+    "id":624,
+    "stock":"FU",
+    "name":"FAB Universal Corp.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":626,
+    "stock":"NTS",
+    "name":"Xfone, Inc.",
+    "sector":"Technology",
+    "industry":"Diversified Communication Services"
+  },
+  {
+    "id":627,
+    "stock":"XNNH",
+    "name":"Xenonics Holdings, Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Home Furnishings & Fixtures"
+  },
+  {
+    "id":628,
+    "stock":"XPL",
+    "name":"Solitario Exploration & Royalty Corp.",
+    "sector":"Basic Materials",
+    "industry":"Gold"
+  },
+  {
+    "id":629,
+    "stock":"XPO",
+    "name":"XPO Logistics",
+    "sector":"Services",
+    "industry":"Trucking"
+  },
+  {
+    "id":630,
+    "stock":"XRA",
+    "name":"Exeter Resource Corporation",
+    "sector":"Basic Materials",
+    "industry":"Gold"
+  },
+  {
+    "id":631,
+    "stock":"YMI",
+    "name":"YM BioSciences Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":632,
+    "stock":"ESNC",
+    "name":"EnSync Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Electrical Equipment"
+  },
+  {
+    "id":633,
+    "stock":"ZN",
+    "name":"Zion Oil & Gas, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Equipment & Services"
+  },
+    {
+    "id":704,
+    "stock":"ABTL",
+    "name":"Autobytel Inc.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+  {
+    "id":705,
+    "stock":"ABVA",
+    "name":"Alliance Bankshares Corporation",
+    "sector":"Financial",
+    "industry":"Regional - Mid-Atlantic Banks"
+  },
+  {
+    "id":706,
+    "stock":"ACAD",
+    "name":"ACADIA Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":709,
+    "stock":"ACAT",
+    "name":"Arctic Cat Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Recreational Vehicles"
+  },
+  {
+    "id":711,
+    "stock":"ACCL",
+    "name":"Accelrys Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":712,
+    "stock":"ACEL",
+    "name":"Tamir Biotechnology, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":713,
+    "stock":"ACET",
+    "name":"Aceto Corp.",
+    "sector":"Basic Materials",
+    "industry":"Chemicals - Major Diversified"
+  },
+  {
+    "id":714,
+    "stock":"ACFC",
+    "name":"Atlantic Coast Federal Corporation",
+    "sector":"Financial",
+    "industry":"Regional - Southeast Banks"
+  },
+  {
+    "id":715,
+    "stock":"ACFN",
+    "name":"Acorn Energy, Inc.",
+    "sector":"Services",
+    "industry":"Technical Services"
+  },
+  {
+    "id":716,
+    "stock":"ACGL",
+    "name":"Arch Capital Group Ltd.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":717,
+    "stock":"SUBCY",
+    "name":"Acergy SA",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Equipment & Services"
+  },
+  {
+    "id":718,
+    "stock":"ACHN",
+    "name":"Achillion Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":719,
+    "stock":"ACIW",
+    "name":"ACI Worldwide, Inc.",
+    "sector":"Technology",
+    "industry":"Technical & System Software"
+  },
+  {
+    "id":722,
+    "stock":"ACLS",
+    "name":"Axcelis Technologies Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor Equipment & Materials"
+  },
+  {
+    "id":723,
+    "stock":"ACMR",
+    "name":"AC Moore Arts & Crafts Inc.",
+    "sector":"Services",
+    "industry":"Specialty Retail, Other"
+  },
+  {
+    "id":724,
+    "stock":"ACOR",
+    "name":"Acorda Therapeutics, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":725,
+    "stock":"ACPW",
+    "name":"Active Power Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":727,
+    "stock":"ACTG",
+    "name":"Acacia Research Corporation",
+    "sector":"Services",
+    "industry":"Research Services"
+  },
+  {
+    "id":730,
+    "stock":"ACTS",
+    "name":"Actions Semiconductor Co., Ltd.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Specialized"
+  },
+  {
+    "id":732,
+    "stock":"ACUR",
+    "name":"Acura Pharmaceuticals Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Delivery"
+  },
+  {
+    "id":733,
+    "stock":"ACWI",
+    "name":"iShares MSCI ACWI Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":734,
+    "stock":"ACWX",
+    "name":"iShares MSCI ACWI ex US Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":735,
+    "stock":"ACXM",
+    "name":"Acxiom Corporation",
+    "sector":"Technology",
+    "industry":"Information Technology Services"
+  },
+  {
+    "id":737,
+    "stock":"ADAT",
+    "name":"Authentidate Holding Corp.",
+    "sector":"Technology",
+    "industry":"Healthcare Information Services"
+  },
+  {
+    "id":738,
+    "stock":"ADBE",
+    "name":"Adobe Systems Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":741,
+    "stock":"ADEP",
+    "name":"Adept Technology Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":742,
+    "stock":"ADES",
+    "name":"ADA-ES, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Pollution & Treatment Controls"
+  },
+  {
+    "id":743,
+    "stock":"ADGF",
+    "name":"Adams Golf Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Sporting Goods"
+  },
+  {
+    "id":744,
+    "stock":"ADLR",
+    "name":"Adolor Corp.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":745,
+    "stock":"ADLS",
+    "name":"Advanced Life Sciences Holdings, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":746,
+    "stock":"ADP",
+    "name":"Automatic Data Processing, Inc.",
+    "sector":"Technology",
+    "industry":"Business Software & Services"
+  },
+  {
+    "id":747,
+    "stock":"ADPI",
+    "name":"American Dental Partners, Inc.",
+    "sector":"Healthcare",
+    "industry":"Health Care Plans"
+  },
+  {
+    "id":748,
+    "stock":"ADPT",
+    "name":"ADPT Corp",
+    "sector":"Technology",
+    "industry":"Computer Based Systems"
+  },
+  {
+    "id":749,
+    "stock":"ADRA",
+    "name":"BLDRS Asia 50 ADR Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":750,
+    "stock":"ADRD",
+    "name":"BLDRS Developed Markets 100 ADR Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":751,
+    "stock":"ADRE",
+    "name":"BLDRS Emerging Markets 50 ADR Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":752,
+    "stock":"ADRU",
+    "name":"BLDRS Europe 100 ADR Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":753,
+    "stock":"ADSK",
+    "name":"Autodesk, Inc.",
+    "sector":"Technology",
+    "industry":"Technical & System Software"
+  },
+    {
+    "id":755,
+    "stock":"ADTN",
+    "name":"ADTRAN Inc.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":758,
+    "stock":"ADVS",
+    "name":"Advent Software, Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":759,
+    "stock":"AEHR",
+    "name":"Aehr Test Systems",
+    "sector":"Technology",
+    "industry":"Semiconductor Equipment & Materials"
+  },
+  {
+    "id":760,
+    "stock":"AEIS",
+    "name":"Advanced Energy Industries, Inc.",
+    "sector":"Technology",
+    "industry":"Diversified Electronics"
+  },
+  {
+    "id":761,
+    "stock":"AEPI",
+    "name":"AEP Industries Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Rubber & Plastics"
+  },
+  {
+    "id":762,
+    "stock":"AERG",
+    "name":"Applied Energetics, Inc.",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":763,
+    "stock":"AEROE",
+    "name":"Aerogrow International, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Small Tools & Accessories"
+  },
+  {
+    "id":764,
+    "stock":"AERT",
+    "name":"Advanced Environmental Recycling Technologies, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Lumber, Wood Production"
+  },
+  {
+    "id":765,
+    "stock":"AETI",
+    "name":"American Electric Technologies, Inc",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Electrical Equipment"
+  },
+  {
+    "id":766,
+    "stock":"AEY",
+    "name":"ADDvantage Technologies Group Inc.",
+    "sector":"Services",
+    "industry":"Electronics Wholesale"
+  },
+  {
+    "id":767,
+    "stock":"AEZS",
+    "name":"AEterna Zentaris Inc. (USA)",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":768,
+    "stock":"AFAM",
+    "name":"Almost Family Inc.",
+    "sector":"Healthcare",
+    "industry":"Home Health Care"
+  },
+  {
+    "id":769,
+    "stock":"PLKI",
+    "name":"Popeyes Louisiana Kitchen, Inc.",
+    "sector":"Services",
+    "industry":"Restaurants"
+  },
+  {
+    "id":770,
+    "stock":"AFFM",
+    "name":"Affirmative Insurance Holdings Inc.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":771,
+    "stock":"AFFX",
+    "name":"Affymetrix Inc.",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":772,
+    "stock":"AFFY",
+    "name":"Affymax, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":773,
+    "stock":"AFOP",
+    "name":"Alliance Fiber Optic Products Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Broad Line"
+  },
+  {
+    "id":774,
+    "stock":"AFSI",
+    "name":"AmTrust Financial Services, Inc.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":775,
+    "stock":"AGEN",
+    "name":"Agenus Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":776,
+    "stock":"AGII",
+    "name":"Argo Group International Holdings, Ltd.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":778,
+    "stock":"AGNC",
+    "name":"American Capital Agency Corp.",
+    "sector":"Financial",
+    "industry":"REIT - Residential"
+  },
+  {
+    "id":779,
+    "stock":"AGYS",
+    "name":"Agilysys Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":780,
+    "stock":"AHCI",
+    "name":"Allied Healthcare International Inc.",
+    "sector":"Healthcare",
+    "industry":"Home Health Care"
+  },
+  {
+    "id":781,
+    "stock":"AHGP",
+    "name":"Alliance Holdings GP, L.P.",
+    "sector":"Basic Materials",
+    "industry":"Nonmetallic Mineral Mining"
+  },
+  {
+    "id":783,
+    "stock":"AHPI",
+    "name":"Allied Healthcare Products Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":784,
+    "stock":"AIMC",
+    "name":"Altra Holdings, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Electrical Equipment"
+  },
+  {
+    "id":785,
+    "stock":"AINV",
+    "name":"Apollo Investment Corporation",
+    "sector":"Financial",
+    "industry":"Diversified Investments"
+  },
+  {
+    "id":786,
+    "stock":"AIPC",
+    "name":"American Italian Pasta Co.",
+    "sector":"Consumer Goods",
+    "industry":"Processed & Packaged Goods"
+  },
+  {
+    "id":787,
+    "stock":"AIRM",
+    "name":"Air Methods Corp.",
+    "sector":"Services",
+    "industry":"Air Services, Other"
+  },
+    {
+    "id":789,
+    "stock":"AIRT",
+    "name":"Air T Inc.",
+    "sector":"Services",
+    "industry":"Air Delivery & Freight Services"
+  },
+  {
+    "id":792,
+    "stock":"AIXG",
+    "name":"Aixtron SE",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":793,
+    "stock":"AKAM",
+    "name":"Akamai Technologies Inc.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+  {
+    "id":795,
+    "stock":"AKRX",
+    "name":"Akorn, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drugs - Generic"
+  },
+  {
+    "id":796,
+    "stock":"ALAN",
+    "name":"Alanco Technologies Inc.",
+    "sector":"Technology",
+    "industry":"Data Storage Devices"
+  },
+  {
+    "id":798,
+    "stock":"ALCO",
+    "name":"Alico Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Farm Products"
+  },
+  {
+    "id":799,
+    "stock":"ALDA",
+    "name":"Aldila Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Sporting Goods"
+  },
+  {
+    "id":801,
+    "stock":"ALGN",
+    "name":"Align Technology Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":802,
+    "stock":"ALGT",
+    "name":"Allegiant Travel Company",
+    "sector":"Services",
+    "industry":"Regional Airlines"
+  },
+  {
+    "id":803,
+    "stock":"ALKS",
+    "name":"Alkermes, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Delivery"
+  },
+  {
+    "id":804,
+    "stock":"ALLB",
+    "name":"Alliance Bancorp Inc of Pennsylvania",
+    "sector":"Financial",
+    "industry":"Regional - Northeast Banks"
+  },
+  {
+    "id":806,
+    "stock":"ALLT",
+    "name":"Allot Communications Ltd.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":807,
+    "stock":"ALNC",
+    "name":"Alliance Financial Corporation",
+    "sector":"Financial",
+    "industry":"Regional - Northeast Banks"
+  },
+  {
+    "id":808,
+    "stock":"ALNY",
+    "name":"Alnylam Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":809,
+    "stock":"ALOG",
+    "name":"Analogic Corporation",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":810,
+    "stock":"ALOT",
+    "name":"Astro-Med Inc.",
+    "sector":"Technology",
+    "industry":"Computer Peripherals"
+  },
+  {
+    "id":812,
+    "stock":"ALSE",
+    "name":"Alseres Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":813,
+    "stock":"ALSK",
+    "name":"Alaska Communications Systems Group Inc.",
+    "sector":"Technology",
+    "industry":"Telecom Services - Domestic"
+  },
+  {
+    "id":814,
+    "stock":"ALTH",
+    "name":"Allos Therapeutics, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":815,
+    "stock":"ALTI",
+    "name":"Altair Nanotechnologies, Inc.",
+    "sector":"Technology",
+    "industry":"Diversified Electronics"
+  },
+  {
+    "id":816,
+    "stock":"ALTR",
+    "name":"Altera Corp.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Specialized"
+  },
+    {
+    "id":821,
+    "stock":"ALVR",
+    "name":"Alvarion Ltd.",
+    "sector":"Technology",
+    "industry":"Wireless Communications"
+  },
+  {
+    "id":822,
+    "stock":"ALXA",
+    "name":"Alexza Pharmaceuticals Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":823,
+    "stock":"ALXN",
+    "name":"Alexion Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":825,
+    "stock":"AMAC",
+    "name":"American Medical Alert Corp.",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":826,
+    "stock":"AMAG",
+    "name":"AMAG Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Diagnostic Substances"
+  },
+  {
+    "id":827,
+    "stock":"AMAT",
+    "name":"Applied Materials Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor Equipment & Materials"
+  },
+  {
+    "id":828,
+    "stock":"AMCC",
+    "name":"Applied Micro Circuits Corp.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Integrated Circuits"
+  },
+  {
+    "id":830,
+    "stock":"AMCN",
+    "name":"AirMedia Group Inc.",
+    "sector":"Services",
+    "industry":"Marketing Services"
+  },
+  {
+    "id":831,
+    "stock":"AMCS",
+    "name":"AMICAS Inc.",
+    "sector":"Technology",
+    "industry":"Business Software & Services"
+  },
+  {
+    "id":832,
+    "stock":"AMED",
+    "name":"Amedisys Inc.",
+    "sector":"Healthcare",
+    "industry":"Home Health Care"
+  },
+    {
+    "id":838,
+    "stock":"AMGN",
+    "name":"Amgen Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":839,
+    "stock":"AMIC",
+    "name":"American Independence Corp.",
+    "sector":"Financial",
+    "industry":"Accident & Health Insurance"
+  },
+  {
+    "id":840,
+    "stock":"AMIEQ",
+    "name":"Ambassadors International Inc.",
+    "sector":"Services",
+    "industry":"Sporting Activities"
+  },
+  {
+    "id":841,
+    "stock":"AMIN",
+    "name":"American International Industries Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":842,
+    "stock":"AMKR",
+    "name":"Amkor Technology, Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Integrated Circuits"
+  },
+  {
+    "id":843,
+    "stock":"AMLN",
+    "name":"Amylin Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":844,
+    "stock":"AMMD",
+    "name":"American Medical Systems Holdings Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":845,
+    "stock":"AMNB",
+    "name":"American National Bankshares Inc.",
+    "sector":"Financial",
+    "industry":"Regional - Mid-Atlantic Banks"
+  },
+  {
+    "id":846,
+    "stock":"AMOT",
+    "name":"Allied Motion Technologies Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Electrical Equipment"
+  },
+    {
+    "id":848,
+    "stock":"AMPH",
+    "name":"Amphastar Pharmaceuticals",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":849,
+    "stock":"AMPL",
+    "name":"Ampal-American Israel Corp.",
+    "sector":"Financial",
+    "industry":"Investment Brokerage - National"
+  },
+  {
+    "id":851,
+    "stock":"AMRB",
+    "name":"American River Bankshares",
+    "sector":"Financial",
+    "industry":"Regional - Pacific Banks"
+  },
+  {
+    "id":852,
+    "stock":"AMRI",
+    "name":"Albany Molecular Research Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":853,
+    "stock":"AMRN",
+    "name":"Amarin Corporation plc",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":855,
+    "stock":"AMSC",
+    "name":"American Superconductor Corporation",
+    "sector":"Technology",
+    "industry":"Diversified Electronics"
+  },
+  {
+    "id":856,
+    "stock":"AMSF",
+    "name":"Amerisafe, Inc.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":857,
+    "stock":"AMSG",
+    "name":"AmSurg Corp.",
+    "sector":"Healthcare",
+    "industry":"Hospitals"
+  },
+  {
+    "id":858,
+    "stock":"AMSWA",
+    "name":"American Software, Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":859,
+    "stock":"AMTC",
+    "name":"Ameritrans Capital Corp.",
+    "sector":"Financial",
+    "industry":"Diversified Investments"
+  },
+    {
+    "id":8037,
+    "stock":"CBPO",
+    "name":"China Biologic Products, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":8039,
+    "stock":"ESSX",
+    "name":"Essex Rental Corp.",
+    "sector":"Services",
+    "industry":"Rental & Leasing Services"
+  },
+  {
+    "id":8041,
+    "stock":"OXBT",
+    "name":"Oxygen Biotherapeutics, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":8042,
+    "stock":"PPC",
+    "name":"Pilgrim's Pride Corporation",
+    "sector":"Consumer Goods",
+    "industry":"Meat Products"
+  },
+  {
+    "id":8043,
+    "stock":"SPMD",
+    "name":"SuperMedia Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":8044,
+    "stock":"TATT",
+    "name":"TAT Technologies, Ltd.",
+    "sector":"Industrial Goods",
+    "industry":"Aerospace/Defense Products & Services"
+  },
+  {
+    "id":8045,
+    "stock":"AMCF",
+    "name":"Andatee China Marine Fuel Services Corporation",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Equipment & Services"
+  },
+  {
+    "id":8046,
+    "stock":"AVNW",
+    "name":"Aviat Networks, Inc.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":8047,
+    "stock":"CHC",
+    "name":"China Hydroelectric Corporation",
+    "sector":"Utilities",
+    "industry":"Diversified Utilities"
+  },
+  {
+    "id":8048,
+    "stock":"CELM",
+    "name":"China Electric Motor, Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Electronic Equipment"
+  },
+  {
+    "id":8049,
+    "stock":"CNAM",
+    "name":"China Armco Metals, Inc.",
+    "sector":"Services",
+    "industry":"Basic Materials Wholesale"
+  },
+  {
+    "id":8050,
+    "stock":"YANG",
+    "name":"Direxion Daily China Bear 3X Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8051,
+    "stock":"YINN",
+    "name":"Direxion Daily China Bull 3X Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8052,
+    "stock":"DEXO",
+    "name":"Dex One Corporation",
+    "sector":"Services",
+    "industry":"Marketing Services"
+  },
+  {
+    "id":8053,
+    "stock":"DSCI",
+    "name":"Derma Sciences Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Instruments & Supplies"
+  },
+  {
+    "id":8054,
+    "stock":"GVFG",
+    "name":"GEROVA Financial Group Ltd.",
+    "sector":"Financial",
+    "industry":"Life Insurance"
+  },
+  {
+    "id":8055,
+    "stock":"HEDJ",
+    "name":"WisdomTree International Hedged Equity",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8056,
+    "stock":"IRWD",
+    "name":"Ironwood Pharmaceuticals Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Laboratories & Research"
+  },
+  {
+    "id":8057,
+    "stock":"LBJ",
+    "name":"Direxion Daily Latin America Bull 3X Shs",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8058,
+    "stock":"LHB",
+    "name":"Direxion Daily Latin America Bear 3X Shs",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8059,
+    "stock":"LSTZA",
+    "name":"Liberty Starz Group",
+    "sector":"Services",
+    "industry":"Broadcasting - TV"
+  },
+  {
+    "id":8060,
+    "stock":"MSG",
+    "name":"Madison Square Garden, Inc.",
+    "sector":"Services",
+    "industry":"Entertainment - Diversified"
+  },
+  {
+    "id":8062,
+    "stock":"SCPB",
+    "name":"SPDR Barclays Capital Short Term Corp Bd",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8063,
+    "stock":"SGI",
+    "name":"Silicon Graphics International Corp.",
+    "sector":"Technology",
+    "industry":"Diversified Computer Systems"
+  },
+  {
+    "id":8064,
+    "stock":"AON",
+    "name":"Aon Corporation",
+    "sector":"Financial",
+    "industry":"Insurance Brokers"
+  },
+  {
+    "id":8065,
+    "stock":"WAC",
+    "name":"Walter Investment Management Corp.",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+  {
+    "id":8066,
+    "stock":"AAN",
+    "name":"Aaron's, Inc.",
+    "sector":"Services",
+    "industry":"Rental & Leasing Services"
+  },
+  {
+    "id":8067,
+    "stock":"GAME",
+    "name":"Shanda Games Limited",
+    "sector":"Technology",
+    "industry":"Multimedia & Graphics Software"
+  },
+  {
+    "id":8068,
+    "stock":"EM",
+    "name":"Emdeon Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":8069,
+    "stock":"SVN",
+    "name":"7 Days Group Holdings Limited",
+    "sector":"Services",
+    "industry":"Lodging"
+  },
+  {
+    "id":8071,
+    "stock":"LOGM",
+    "name":"LogMeIn, Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+    {
+    "id":8327,
+    "stock":"SBM",
+    "name":"ProShares Short Basic Materials",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8328,
+    "stock":"PSCM",
+    "name":"PowerShares S&P SmallCap Materials",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8329,
+    "stock":"PSCE",
+    "name":"PowerShares S&P SmallCap Energy",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8330,
+    "stock":"PSCF",
+    "name":"PowerShares S&P SmallCap Financials",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8331,
+    "stock":"PSCI",
+    "name":"PowerShares S&P SmallCap Industrials",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8332,
+    "stock":"PSCT",
+    "name":"PowerShares S&P SmallCap Info Tech",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8333,
+    "stock":"PSCC",
+    "name":"PowerShares S&P SmallCap Consumer Stapl",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8334,
+    "stock":"PSCU",
+    "name":"PowerShares S&P SmallCap Utilities",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8335,
+    "stock":"PSCH",
+    "name":"PowerShares S&P SmallCap Health Care",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8336,
+    "stock":"PSCD",
+    "name":"PowerShares S&P SmallCap Cnsmr Discret",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8337,
+    "stock":"YXI",
+    "name":"ProShares Short FTSE China 25",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },{
+    "id":8663,
+    "stock":"BRAZ",
+    "name":"Global X Brazil Mid Cap ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8664,
+    "stock":"BRD",
+    "name":"Brigus Gold Corp",
+    "sector":"Basic Materials",
+    "industry":"Gold"
+  },
+  {
+    "id":8665,
+    "stock":"HSFT",
+    "name":"hiSoft Technology International Ltd.",
+    "sector":"Technology",
+    "industry":"Business Software & Services"
+  },
+  {
+    "id":8666,
+    "stock":"PSTR",
+    "name":"PostRock Energy Corporation",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Drilling & Exploration"
+  },
+  {
+    "id":8667,
+    "stock":"SBND",
+    "name":"PowerShares DB 3x Sht 25+ Yr Trsy Bd ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8668,
+    "stock":"TCRD",
+    "name":"THL Credit, Inc.",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+  {
+    "id":8669,
+    "stock":"QUAD",
+    "name":"Quad/Graphics, Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":8670,
+    "stock":"QEP",
+    "name":"QEP Resources, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Drilling & Exploration"
+  },
+  {
+    "id":8671,
+    "stock":"CBP",
+    "name":"China Botanic Pharmaceutical Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":8672,
+    "stock":"EQC",
+    "name":"Equity Commonwealth Common Shar",
+    "sector":"Financial",
+    "industry":"REIT - Office"
+  },
+  {
+    "id":8673,
+    "stock":"MSCI",
+    "name":"MSCI Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":8674,
+    "stock":"AMAP",
+    "name":"AutoNavi Holdings Limited",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":8675,
+    "stock":"VTRO",
+    "name":"Vertro, Inc.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+    {
+    "id":8678,
+    "stock":"AERL",
+    "name":"Asia Entertainment & Resources Ltd.",
+    "sector":"Services",
+    "industry":"Gaming Activities"
+  },
+  {
+    "id":8679,
+    "stock":"GBLI",
+    "name":"Global Indemnity plc",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":8680,
+    "stock":"AGLS",
+    "name":"Mars Hill Global Relative Value ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8681,
+    "stock":"PLOW",
+    "name":"Douglas Dynamics, Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Auto Parts"
+  },
+  {
+    "id":8683,
+    "stock":"TCCO",
+    "name":"Technical Communications Corp.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":8684,
+    "stock":"THTI",
+    "name":"THT Heat Transfer Technology, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":8685,
+    "stock":"TNAV",
+    "name":"TeleNav, Inc.",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+    {
+    "id":8687,
+    "stock":"AADR",
+    "name":"WCM/BNY Mellon Focused Growth ADR ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8688,
+    "stock":"ALR",
+    "name":"Alere Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Laboratories & Research"
+  },
+  {
+    "id":8689,
+    "stock":"AXEN",
+    "name":"iShares MSCI ACWI ex US Energy Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8690,
+    "stock":"AXHE",
+    "name":"iShares MSCI ACWI ex US Health Care Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8691,
+    "stock":"AXMT",
+    "name":"iShares MSCI ACWI ex US Materials Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8692,
+    "stock":"AXTE",
+    "name":"iShares MSCI ACWI ex US Telecom Svc Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8693,
+    "stock":"BRAQ",
+    "name":"Global X Brazil Consumer ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8694,
+    "stock":"EMLC",
+    "name":"Market Vectors EM Local Curr Bond ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8695,
+    "stock":"EVI",
+    "name":"EnviroStar, Inc.",
+    "sector":"Services",
+    "industry":"Consumer Services"
+  },
+  {
+    "id":8696,
+    "stock":"LBND",
+    "name":"PowerShares DB 3x Lng 25+ Yr Trsy Bd ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8697,
+    "stock":"LIT",
+    "name":"Global X Lithium ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8698,
+    "stock":"MLPG",
+    "name":"UBS E-TRACS Alerian Natural Gas MLP ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8699,
+    "stock":"MLPL",
+    "name":"UBS E-TRACS 2x Long Alerian MLP Infr ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8700,
+    "stock":"OXF",
+    "name":"Oxford Resource Partners, L.P.",
+    "sector":"Basic Materials",
+    "industry":"Industrial Metals & Minerals"
+  },
+  {
+    "id":8701,
+    "stock":"QLIK",
+    "name":"Qlik Technologies, Inc.",
+    "sector":"Technology",
+    "industry":"Business Software & Services"
+  },
+  {
+    "id":8702,
+    "stock":"RETL",
+    "name":"Direxion Daily Retail Bull 2X Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8703,
+    "stock":"RETS",
+    "name":"Direxion Daily Retail Bear 2X Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8704,
+    "stock":"RLD",
+    "name":"RealD Inc.",
+    "sector":"Services",
+    "industry":"Movie Production, Theaters"
+  },
+  {
+    "id":8705,
+    "stock":"SPE",
+    "name":"Special Opportunities Fund, Inc.",
+    "sector":"Financial",
+    "industry":"Closed-End Fund - Equity"
+  },
+  {
+    "id":8706,
+    "stock":"VPG",
+    "name":"Vishay Precision Group, Inc.",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":8707,
+    "stock":"XXV",
+    "name":"iPath Inverse S&P 500 Vix S/T Fut ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8708,
+    "stock":"ZOOG",
+    "name":"Zoo Entertainment, Inc.",
+    "sector":"Technology",
+    "industry":"Multimedia & Graphics Software"
+  },
+  {
+    "id":8710,
+    "stock":"AT",
+    "name":"Atlantic Power Corporation",
+    "sector":"Utilities",
+    "industry":"Electric Utilities"
+  },
+  {
+    "id":8711,
+    "stock":"AXDI",
+    "name":"iShares MSCI ACWI ex US Cnsmr Dscrtn Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8712,
+    "stock":"AXID",
+    "name":"iShares MSCI ACWI ex US Industrials Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8713,
+    "stock":"AXIT",
+    "name":"iShares MSCI ACWI ex US Info Tech Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8714,
+    "stock":"AXSL",
+    "name":"iShares MSCI ACWI ex US Cnsmr Stpls Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8715,
+    "stock":"AXUT",
+    "name":"iShares MSCI ACWI ex US Utilities Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8716,
+    "stock":"BRAF",
+    "name":"Global X Brazil Financials ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8717,
+    "stock":"CSFS",
+    "name":"The Cash Store Financial Services, Inc.",
+    "sector":"Financial",
+    "industry":"Credit Services"
+  },
+  {
+    "id":8718,
+    "stock":"GKNT",
+    "name":"Geeknet, Inc.",
+    "sector":"Technology",
+    "industry":"Internet Software & Services"
+  },
+  {
+    "id":8719,
+    "stock":"TCLRY",
+    "name":"Technicolor SA",
+    "sector":"Consumer Goods",
+    "industry":"Electronic Equipment"
+  },
+  {
+    "id":8720,
+    "stock":"TSRX",
+    "name":"Trius Therapeutics, Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Laboratories & Research"
+  },
+  {
+    "id":8721,
+    "stock":"AMBO",
+    "name":"Ambow Education Holding Ltd.",
+    "sector":"Services",
+    "industry":"Education & Training Services"
+  },
+  {
+    "id":8722,
+    "stock":"AMRC",
+    "name":"Ameresco, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Electrical Equipment"
+  },
+  {
+    "id":8723,
+    "stock":"CHKM",
+    "name":"Chesapeake Midstream Partners, L.P.",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Refining & Marketing"
+  },
+  {
+    "id":8724,
+    "stock":"CIS",
+    "name":"Camelot Information Systems Inc.",
+    "sector":"Technology",
+    "industry":"Information Technology Services"
+  },
+  {
+    "id":8725,
+    "stock":"DLBL",
+    "name":"iPath US Treasury Long Bond Bull ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8726,
+    "stock":"DLBS",
+    "name":"iPath US Treasury Long Bond Bear ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8727,
+    "stock":"DTUL",
+    "name":"iPath US Treasury 2-year Bull ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8728,
+    "stock":"DTUS",
+    "name":"iPath US Treasury 2-year Bear ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8729,
+    "stock":"DTYL",
+    "name":"iPath US Treasury 10-year Bull ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8730,
+    "stock":"DTYS",
+    "name":"iPath US Treasury 10-year Bear ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8731,
+    "stock":"ELD",
+    "name":"WisdomTree Emerging Markets Local Debt",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8732,
+    "stock":"ENV",
+    "name":"Envestnet, Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":8733,
+    "stock":"GASL",
+    "name":"Daily Natural Gas Related Bull 3x Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8734,
+    "stock":"GASX",
+    "name":"Direxion Daily Nat Gas Rltd Bear 2X Shrs",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8735,
+    "stock":"FLAT",
+    "name":"iPath US Treasury Flattener ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8736,
+    "stock":"GDOT",
+    "name":"Green Dot Corporation",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":8737,
+    "stock":"IL",
+    "name":"IntraLinks Holdings, Inc.",
+    "sector":"Technology",
+    "industry":"Security Software & Services"
+  },
+  {
+    "id":8738,
+    "stock":"KH",
+    "name":"China Kanghui Holdings",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":8739,
+    "stock":"OINK",
+    "name":"Tianli Agritech, Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Farm Products"
+  },
+  {
+    "id":8740,
+    "stock":"PATH",
+    "name":"NuPathe, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":8741,
+    "stock":"SAR",
+    "name":"Saratoga Investment Corp.",
+    "sector":"Financial",
+    "industry":"Diversified Investments"
+  },
+  {
+    "id":8742,
+    "stock":"SCHO",
+    "name":"Schwab Short-Term U.S. Treasury ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8743,
+    "stock":"SCHP",
+    "name":"Schwab U.S. TIPS ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8744,
+    "stock":"SCHR",
+    "name":"Schwab Intermediate-Term U.S. Trsy ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":8745,
+    "stock":"STPP",
+    "name":"iPath US Treasury Steepener ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":9257,
+    "stock":"CCSC",
+    "name":"Country Style Cooking Restaurant Chain Co., Ltd.",
+    "sector":"Services",
+    "industry":"Restaurants"
+  },
+  {
+    "id":9258,
+    "stock":"CORP",
+    "name":"PIMCO Investment Grade Corp Bd Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9259,
+    "stock":"ELMD",
+    "name":"Electromed, Inc.",
+    "sector":"Healthcare",
+    "industry":"Home Health Care"
+  },
+  {
+    "id":9260,
+    "stock":"FTLK",
+    "name":"Funtalk China Holdings Limited",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":9261,
+    "stock":"GLPW",
+    "name":"Global Power Equipment Group Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":9262,
+    "stock":"GMAN",
+    "name":"Gordmans Stores, Inc.",
+    "sector":"Services",
+    "industry":"Home Furnishing Stores"
+  },
+  {
+    "id":9263,
+    "stock":"GNR",
+    "name":"SPDR S&P Global Natural Resources",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9264,
+    "stock":"HGSH",
+    "name":"China HGS Real Estate Inc.",
+    "sector":"Financial",
+    "industry":"Real Estate Development"
+  },
+  {
+    "id":9265,
+    "stock":"SCOK",
+    "name":"SinoCoking and Coke Chemical Industries, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Nonmetallic Mineral Mining"
+  },
+  {
+    "id":9266,
+    "stock":"SILU",
+    "name":"Sprott Resource Lending Corp.",
+    "sector":"Financial",
+    "industry":"Mortgage Investment"
+  },
+  {
+    "id":9267,
+    "stock":"VONE",
+    "name":"Vanguard Russell 1000 Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9268,
+    "stock":"VONG",
+    "name":"Vanguard Russell 1000 Growth Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9269,
+    "stock":"VONV",
+    "name":"Vanguard Russell 1000 Value Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9270,
+    "stock":"VTHR",
+    "name":"Vanguard Russell 3000 Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9271,
+    "stock":"VTWG",
+    "name":"Vanguard Russell 2000 Growth Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9272,
+    "stock":"VTWO",
+    "name":"Vanguard Russell 2000 Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9273,
+    "stock":"VTWV",
+    "name":"Vanguard Russell 2000 Value Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+    {
+    "id":9275,
+    "stock":"CCX",
+    "name":"WisdomTree Dreyfus Commodity Currency",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9276,
+    "stock":"ECNS",
+    "name":"iShares MSCI China Small Cap Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9277,
+    "stock":"EPHE",
+    "name":"iShares MSCI Philippines Invstb Mkt Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9278,
+    "stock":"EWZS",
+    "name":"iShares MSCI Brazil Small Cap Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9279,
+    "stock":"RNO",
+    "name":"Rhino Resource Partners LP",
+    "sector":"Basic Materials",
+    "industry":"Nonmetallic Mineral Mining"
+  },
+  {
+    "id":9280,
+    "stock":"UAL",
+    "name":"United Continental Holdings, Inc.",
+    "sector":"Services",
+    "industry":"Major Airlines"
+  },
+  {
+    "id":9281,
+    "stock":"SQI",
+    "name":"SciQuest, Inc.",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":9282,
+    "stock":"SOXX",
+    "name":"iShares PHLX SOX Semiconductor Sector",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9283,
+    "stock":"SFUN",
+    "name":"SouFun Holdings Ltd.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+  {
+    "id":9284,
+    "stock":"SCIN",
+    "name":"EGShares India Small Cap",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9285,
+    "stock":"PEK",
+    "name":"Market Vectors China ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9286,
+    "stock":"NFEC",
+    "name":"NF Energy Saving Corp.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Equipment & Components"
+  },
+  {
+    "id":9287,
+    "stock":"NEI",
+    "name":"Network Engines, Inc.",
+    "sector":"Technology",
+    "industry":"Security Software & Services"
+  },
+  {
+    "id":9288,
+    "stock":"MY",
+    "name":"China Ming Yang Wind Power Group Limited",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":9289,
+    "stock":"MLPS",
+    "name":"UBS E-TRACS 1x Shrt Alerian MLP Infr ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9290,
+    "stock":"MASC",
+    "name":"Material Sciences Corp.",
+    "sector":"Industrial Goods",
+    "industry":"Industrial Equipment & Components"
+  },
+  {
+    "id":9291,
+    "stock":"KEYW",
+    "name":"The KEYW Holding Corporation",
+    "sector":"Technology",
+    "industry":"Security Software & Services"
+  },
+  {
+    "id":9292,
+    "stock":"KEYP",
+    "name":"Keyuan Petrochemicals, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Major Integrated Oil & Gas"
+  },
+  {
+    "id":9293,
+    "stock":"INXX",
+    "name":"EGShares India Infrastructure",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9294,
+    "stock":"GEDU",
+    "name":"Global Education & Technology Group Limited",
+    "sector":"Services",
+    "industry":"Education & Training Services"
+  },
+  {
+    "id":9295,
+    "stock":"ENZL",
+    "name":"iShares MSCI New Zealand Invstb Mkt Idx",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9296,
+    "stock":"ELT",
+    "name":"Elster Group SE",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":9297,
+    "stock":"EFC",
+    "name":"Ellington Financial LLC",
+    "sector":"Financial",
+    "industry":"Mortgage Investment"
+  },
+  {
+    "id":9298,
+    "stock":"DSTJ",
+    "name":"JPMorgan 2X Short US Long Trsy Fut ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9299,
+    "stock":"DSXJ",
+    "name":"JPMorgan 2X Short US 10 Yr Trsy Fut ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9300,
+    "stock":"DLGC",
+    "name":"Dialogic, Inc.",
+    "sector":"Technology",
+    "industry":"Communication Equipment"
+  },
+  {
+    "id":9301,
+    "stock":"CSMA",
+    "name":"Credit Suisse Merger Arbi Liquid Idx ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9302,
+    "stock":"CHFN",
+    "name":"Charter Financial Corp.",
+    "sector":"Financial",
+    "industry":"Regional - Mid-Atlantic Banks"
+  },
+  {
+    "id":9303,
+    "stock":"CCIH",
+    "name":"ChinaCache International Holdings Ltd.",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+  {
+    "id":9304,
+    "stock":"APRI",
+    "name":"Apricus Biosciences, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":9305,
+    "stock":"AMRS",
+    "name":"Amyris Biotechnologies Inc.",
+    "sector":"Basic Materials",
+    "industry":"Specialty Chemicals"
+  },
+  {
+    "id":9306,
+    "stock":"NTSP",
+    "name":"Netspend Holdings, Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+    {
+    "id":9311,
+    "stock":"REMX",
+    "name":"Market Vectors Rare Earth/Str Metals ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9312,
+    "stock":"BODY",
+    "name":"Body Central Corp.",
+    "sector":"Services",
+    "industry":"Apparel Stores"
+  },
+  {
+    "id":9313,
+    "stock":"CMLP",
+    "name":"Crestwood Midstream Partners LP",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Drilling & Exploration"
+  },
+  {
+    "id":9314,
+    "stock":"SHP",
+    "name":"ShangPharma Corporation",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+    {
+    "id":9330,
+    "stock":"VNQI",
+    "name":"Vanguard Global ex-US Real Estate ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9331,
+    "stock":"BBRG",
+    "name":"Bravo Brio Restaurant Group, Inc.",
+    "sector":"Services",
+    "industry":"Restaurants"
+  },
+  {
+    "id":9332,
+    "stock":"CCG",
+    "name":"Campus Crest Communities, Inc.",
+    "sector":"Financial",
+    "industry":"REIT - Diversified"
+  },
+  {
+    "id":9333,
+    "stock":"GLTR",
+    "name":"ETFS Physical PM Basket Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9334,
+    "stock":"HBM",
+    "name":"HudBay Minerals, Inc.",
+    "sector":"Basic Materials",
+    "industry":"Industrial Metals & Minerals"
+  },
+  {
+    "id":9335,
+    "stock":"LYB",
+    "name":"LyondellBasell Industries NV",
+    "sector":"Basic Materials",
+    "industry":"Specialty Chemicals"
+  },
+  {
+    "id":9336,
+    "stock":"TOWR",
+    "name":"Tower International, Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Metal Fabrication"
+  },
+  {
+    "id":9337,
+    "stock":"VRA",
+    "name":"Vera Bradley Designs, Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Textile - Apparel Footwear & Accessories"
+  },
+  {
+    "id":9338,
+    "stock":"XRS",
+    "name":"TAL Education Group",
+    "sector":"Services",
+    "industry":"Education & Training Services"
+  },
+  {
+    "id":9339,
+    "stock":"PSLV",
+    "name":"Sprott Physical Silver Trust ET",
+    "sector":"",
+    "industry":""
+  },
+  {
+    "id":9340,
+    "stock":"AUMN",
+    "name":"Golden Minerals Company",
+    "sector":"Basic Materials",
+    "industry":"Industrial Metals & Minerals"
+  },
+  {
+    "id":9341,
+    "stock":"NORW",
+    "name":"Global X Norway ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9342,
+    "stock":"ERUS",
+    "name":"iShares MSCI Russia Capped Index",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9343,
+    "stock":"HHC",
+    "name":"The Howard Hughes Corporation",
+    "sector":"Financial",
+    "industry":"Real Estate Development"
+  },
+    {
+    "id":9345,
+    "stock":"AEGR",
+    "name":"Aegerion Pharmaceuticals, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Major"
+  },
+  {
+    "id":9346,
+    "stock":"EXAM",
+    "name":"ExamWorks Group, Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":9347,
+    "stock":"GAGA",
+    "name":"Le Gaga Holdings Ltd",
+    "sector":"Consumer Goods",
+    "industry":"Farm Products"
+  },
+  {
+    "id":9348,
+    "stock":"MCOX",
+    "name":"Mecox Lane Limited",
+    "sector":"Services",
+    "industry":"Specialty Retail, Other"
+  },
+  {
+    "id":9349,
+    "stock":"NDZ",
+    "name":"Nordion Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Laboratories & Research"
+  },
+  {
+    "id":9350,
+    "stock":"PACB",
+    "name":"Pacific Biosciences of California, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":9351,
+    "stock":"PCYG",
+    "name":"Park City Group Inc.",
+    "sector":"Technology",
+    "industry":"Business Software & Services"
+  },
+  {
+    "id":9352,
+    "stock":"XUE",
+    "name":"Xueda Education Group",
+    "sector":"Services",
+    "industry":"Education & Training Services"
+  },
+  {
+    "id":9353,
+    "stock":"RRTS",
+    "name":"Roadrunner Transportation Systems, Inc.",
+    "sector":"Services",
+    "industry":"Air Delivery & Freight Services"
+  },
+    {
+    "id":9355,
+    "stock":"SBRA",
+    "name":"Sabra Healthcare REIT, Inc.",
+    "sector":"Financial",
+    "industry":"REIT - Healthcare Facilities"
+  },
+  {
+    "id":9356,
+    "stock":"SODA",
+    "name":"SodaStream International Ltd.",
+    "sector":"Consumer Goods",
+    "industry":"Beverages - Soft Drinks"
+  },
+  {
+    "id":9358,
+    "stock":"GM",
+    "name":"General Motors Company",
+    "sector":"Consumer Goods",
+    "industry":"Auto Manufacturers - Major"
+  },
+    {
+    "id":9399,
+    "stock":"ARX",
+    "name":"Aeroflex Holding Corp.",
+    "sector":"Technology",
+    "industry":"Semiconductor - Integrated Circuits"
+  },
+  {
+    "id":9400,
+    "stock":"BAH",
+    "name":"Booz Allen Hamilton Inc.",
+    "sector":"Services",
+    "industry":"Management Services"
+  },
+  {
+    "id":9401,
+    "stock":"BIRT",
+    "name":"Actuate Corporation",
+    "sector":"Technology",
+    "industry":"Application Software"
+  },
+  {
+    "id":9402,
+    "stock":"BITA",
+    "name":"Bitauto Holdings Limited",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+  {
+    "id":9403,
+    "stock":"BTX",
+    "name":"BioTime, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":9404,
+    "stock":"CAZA",
+    "name":"Cazador Acquisition Corp. Ltd.",
+    "sector":"Financial",
+    "industry":"Diversified Investments"
+  },
+  {
+    "id":9405,
+    "stock":"CHMT",
+    "name":"Chemtura Corporation",
+    "sector":"Basic Materials",
+    "industry":"Specialty Chemicals"
+  },
+  {
+    "id":9406,
+    "stock":"CMRE",
+    "name":"Costamare Inc.",
+    "sector":"Services",
+    "industry":"Shipping"
+  },
+  {
+    "id":9407,
+    "stock":"GNOM",
+    "name":"Complete Genomics, Inc.",
+    "sector":"Healthcare",
+    "industry":"Biotechnology"
+  },
+  {
+    "id":9408,
+    "stock":"HBP",
+    "name":"Huttig Building Products",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":9409,
+    "stock":"HRZN",
+    "name":"Horizon Technology Finance Corporation",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+  {
+    "id":9410,
+    "stock":"KFFG",
+    "name":"Kaiser Federal Financial Group, Inc.",
+    "sector":"Financial",
+    "industry":"Savings & Loans"
+  },
+  {
+    "id":9411,
+    "stock":"LPLA",
+    "name":"LPL Investment Holdings Inc.",
+    "sector":"Financial",
+    "industry":"Investment Brokerage - National"
+  },
+  {
+    "id":9412,
+    "stock":"LZEN",
+    "name":"Lizhan Environmental Corporatio",
+    "sector":"Basic Materials",
+    "industry":"Synthetics"
+  },
+  {
+    "id":9413,
+    "stock":"NOAH",
+    "name":"Noah Holdings Limited",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+  {
+    "id":9414,
+    "stock":"PRMW",
+    "name":"Primo Water Corporation",
+    "sector":"Consumer Goods",
+    "industry":"Beverages - Soft Drinks"
+  },
+  {
+    "id":9415,
+    "stock":"PULS",
+    "name":"Pulse Electronics Corporation",
+    "sector":"Technology",
+    "industry":"Diversified Electronics"
+  },
+  {
+    "id":9416,
+    "stock":"RDA",
+    "name":"RDA Microelectronics, Inc.",
+    "sector":"Technology",
+    "industry":"Semiconductor Equipment & Materials"
+  },
+  {
+    "id":9417,
+    "stock":"SEMG",
+    "name":"SemGroup Corporation",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Pipelines"
+  },
+  {
+    "id":9418,
+    "stock":"SPBC",
+    "name":"SP Bancorp, Inc.",
+    "sector":"Financial",
+    "industry":"Credit Services"
+  },
+  {
+    "id":9419,
+    "stock":"STND",
+    "name":"Standard Financial Corp.",
+    "sector":"Financial",
+    "industry":"Regional - Northeast Banks"
+  },
+  {
+    "id":9420,
+    "stock":"TFM",
+    "name":"The Fresh Market, Inc.",
+    "sector":"Services",
+    "industry":"Grocery Stores"
+  },
+  {
+    "id":9421,
+    "stock":"TPLM",
+    "name":"Triangle Petroleum Corporation",
+    "sector":"Basic Materials",
+    "industry":"Independent Oil & Gas"
+  },
+  {
+    "id":9422,
+    "stock":"UNTK",
+    "name":"UniTek Global Services, Inc.",
+    "sector":"Services",
+    "industry":"Technical Services"
+  },
+  {
+    "id":9423,
+    "stock":"XNY",
+    "name":"China Xiniya Fashion Limited",
+    "sector":"Consumer Goods",
+    "industry":"Textile - Apparel Clothing"
+  },
+  {
+    "id":9425,
+    "stock":"FXCM",
+    "name":"FXCM Inc",
+    "sector":"Financial",
+    "industry":"Investment Brokerage - National"
+  },
+  {
+    "id":9426,
+    "stock":"WITE",
+    "name":"ETFS Physical White Metals Basket Shares",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9427,
+    "stock":"URA",
+    "name":"Global X Uranium ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9428,
+    "stock":"DANG",
+    "name":"E-Commerce China Dangdang Inc. ",
+    "sector":"Services",
+    "industry":"Catalog & Mail Order Houses"
+  },
+  {
+    "id":9429,
+    "stock":"CTE",
+    "name":"SinoTech Energy Limited",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Drilling & Exploration"
+  },
+  {
+    "id":9430,
+    "stock":"IPHI",
+    "name":"Inphi Corporation",
+    "sector":"Technology",
+    "industry":"Semiconductor - Broad Line"
+  },
+  {
+    "id":9431,
+    "stock":"IMRS",
+    "name":"IMRIS, Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Instruments & Supplies"
+  },
+  {
+    "id":9432,
+    "stock":"PEOP",
+    "name":"Peoples Federal Bancshares, Inc.",
+    "sector":"Financial",
+    "industry":"Regional - Northeast Banks"
+  },
+  {
+    "id":9433,
+    "stock":"SYSW",
+    "name":"Syswin Inc.",
+    "sector":"Financial",
+    "industry":"Property Management"
+  },
+  {
+    "id":9434,
+    "stock":"ZGNX",
+    "name":"Zogenix, Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Major"
+  },
+  {
+    "id":9435,
+    "stock":"YOKU",
+    "name":"Youku.com Inc",
+    "sector":"Technology",
+    "industry":"Internet Information Providers"
+  },
+    {
+    "id":9440,
+    "stock":"BONA",
+    "name":"Bona Film Group Limited",
+    "sector":"Services",
+    "industry":"Entertainment - Diversified"
+  },
+  {
+    "id":9441,
+    "stock":"CTP",
+    "name":"CTPartners",
+    "sector":"Services",
+    "industry":"Staffing & Outsourcing Services"
+  },
+  {
+    "id":9442,
+    "stock":"CVOL",
+    "name":"C-Tracks Citi Volatility Index TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9443,
+    "stock":"EMLB",
+    "name":"iPath Long Enhanced MSCI Emerg Mkts ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9444,
+    "stock":"EMSA",
+    "name":"iPath Short Enhanced MSCI Emerg Mkts ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9445,
+    "stock":"GEN",
+    "name":" Genesis Healthcare",
+    "sector":"Utilities",
+    "industry":"Electric Utilities"
+  },
+  {
+    "id":9446,
+    "stock":"GLBS",
+    "name":"Globus Maritime Ltd.",
+    "sector":"Services",
+    "industry":"Shipping"
+  },
+  {
+    "id":9447,
+    "stock":"GLDX",
+    "name":"Global X Gold Explorers ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9448,
+    "stock":"HYLD",
+    "name":"Peritus High Yield ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9449,
+    "stock":"KBWD",
+    "name":"PowerShares KBW Hi Div Yield Financial",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9450,
+    "stock":"KBWP",
+    "name":"PowerShares KBW Prop & Casuality Insur",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9451,
+    "stock":"KBWX",
+    "name":"PowerShares KBW International Financial",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9452,
+    "stock":"KBWY",
+    "name":"PowerShares KBW Prem Yield Equity REIT",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9453,
+    "stock":"LEDS",
+    "name":"SemiLEDs Corporation",
+    "sector":"Technology",
+    "industry":"Semiconductor- Memory Chips"
+  },
+  {
+    "id":9454,
+    "stock":"MFLA",
+    "name":"iPath Long Enhanced MSCI EAFE ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9455,
+    "stock":"MFSA",
+    "name":"iPath Short Enhanced MSCI EAFE ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9456,
+    "stock":"MLPW",
+    "name":"UBS E-TRACS MLP Wells Fargo ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9457,
+    "stock":"ROLA",
+    "name":"iPath Long Extended Russell 1000 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9458,
+    "stock":"ROSA",
+    "name":"iPath Short Extended Russell 1000 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9459,
+    "stock":"RTLA",
+    "name":"iPath Long Extended Russell 2000 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9460,
+    "stock":"RTSA",
+    "name":"iPath Short Extended Russell 2000 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9461,
+    "stock":"SFLA",
+    "name":"iPath Long Extended S&P 500 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9462,
+    "stock":"SFSA",
+    "name":"iPath Short Extended S&P 500 TR ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9463,
+    "stock":"STIP",
+    "name":"iShares Barclays 0-5 Year TIPS Bond",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9464,
+    "stock":"TRGP",
+    "name":"Targa Resources Corp.",
+    "sector":"Utilities",
+    "industry":"Gas Utilities"
+  },
+  {
+    "id":9465,
+    "stock":"TRSY",
+    "name":"PIMCO Broad U.S. Treasury Index ETF",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9466,
+    "stock":"TVIX",
+    "name":"VelocityShares Daily 2x VIX ST ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9467,
+    "stock":"TVIZ",
+    "name":"VelocityShares Daily 2x VIX Med Term ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9468,
+    "stock":"VIIX",
+    "name":"VelocityShares Long VIX Short Term ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9469,
+    "stock":"VIIZ",
+    "name":"VelocityShares Long VIX Medium Term ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9470,
+    "stock":"VZZ",
+    "name":"iPath Long Enhan S&P 500 VIX MT Fut ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9471,
+    "stock":"XIV",
+    "name":"VelocityShares Daily Inverse VIX ST ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9472,
+    "stock":"XVIX",
+    "name":"UBS E-TRACS Daily Long-Short VIX ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9473,
+    "stock":"ZIV",
+    "name":"VelocityShares Daily Inverse VIX MT ETN",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":9474,
+    "stock":"ACNB",
+    "name":"ACNB Corp.",
+    "sector":"Financial",
+    "industry":"Regional - Southwest  Banks"
+  },
+  {
+    "id":9476,
+    "stock":"DYSL",
+    "name":"Dynasil Corporation of America",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":9477,
+    "stock":"FLT",
+    "name":"FleetCor Technologies, Inc.",
+    "sector":"Services",
+    "industry":"Business Services"
+  },
+  {
+    "id":9478,
+    "stock":"FRF",
+    "name":"Fortegra Financial Corporation",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":9479,
+    "stock":"GCAP",
+    "name":"GAIN Capital Holdings, Inc.",
+    "sector":"Financial",
+    "industry":"Investment Brokerage - National"
+  },
+  {
+    "id":9480,
+    "stock":"LAS",
+    "name":"Lentuo International Inc.",
+    "sector":"Services",
+    "industry":"Auto Dealerships"
+  },
+  {
+    "id":9481,
+    "stock":"MOBI",
+    "name":"Sky-mobi Limited",
+    "sector":"Technology",
+    "industry":"Diversified Communication Services"
+  },
+  {
+    "id":9482,
+    "stock":"QRE",
+    "name":"QR Energy, LP",
+    "sector":"Basic Materials",
+    "industry":"Independent Oil & Gas"
+  },
+  {
+    "id":9483,
+    "stock":"RNET",
+    "name":"RigNet, Inc.",
+    "sector":"Technology",
+    "industry":"Diversified Communication Services"
+  },
+  {
+    "id":9484,
+    "stock":"SGOC",
+    "name":"SGOCO Group, Ltd.",
+    "sector":"Consumer Goods",
+    "industry":"Electronic Equipment"
+  },
+  {
+    "id":9485,
+    "stock":"SWFT",
+    "name":"Swift Transportation Co., LLC",
+    "sector":"Services",
+    "industry":"Trucking"
+  },
+  {
+    "id":9486,
+    "stock":"ASMB",
+    "name":"Assembly Biosciences",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Major"
+  },
+  {
+    "id":9487,
+    "stock":"WD",
+    "name":"Walker & Dunlop, LLC",
+    "sector":"Financial",
+    "industry":"Real Estate Development"
+  },
+    {
+    "id":6052,
+    "stock":"K",
+    "name":"Kellogg Company",
+    "sector":"Consumer Goods",
+    "industry":"Processed & Packaged Goods"
+  },
+  {
+    "id":6053,
+    "stock":"KAI",
+    "name":"Kadant Inc.",
+    "sector":"Industrial Goods",
+    "industry":"Diversified Machinery"
+  },
+  {
+    "id":6054,
+    "stock":"KB",
+    "name":"KB Financial Group, Inc.",
+    "sector":"Financial",
+    "industry":"Foreign Regional Banks"
+  },
+  {
+    "id":6055,
+    "stock":"KBE",
+    "name":"SPDR KBW Bank",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":6056,
+    "stock":"KBH",
+    "name":"KB Home",
+    "sector":"Industrial Goods",
+    "industry":"Residential Construction"
+  },
+  {
+    "id":6057,
+    "stock":"KBR",
+    "name":"KBR, Inc.",
+    "sector":"Services",
+    "industry":"Technical Services"
+  },
+  {
+    "id":6058,
+    "stock":"KBW",
+    "name":"KBW Inc",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+    {
+    "id":6060,
+    "stock":"KCE",
+    "name":"SPDR KBW Capital Markets",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":6061,
+    "stock":"KCI",
+    "name":"Kinetic Concepts Inc.",
+    "sector":"Healthcare",
+    "industry":"Medical Appliances & Equipment"
+  },
+  {
+    "id":6062,
+    "stock":"KCP",
+    "name":"Kenneth Cole Productions Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Textile - Apparel Footwear & Accessories"
+  },{
+    "id":6065,
+    "stock":"KIDEQ",
+    "name":"4 Kids Entertainment Inc.",
+    "sector":"Services",
+    "industry":"Consumer Services"
+  },
+  {
+    "id":6066,
+    "stock":"KDN",
+    "name":"Kaydon Corporation",
+    "sector":"Industrial Goods",
+    "industry":"Machine Tools & Accessories"
+  },
+  {
+    "id":6067,
+    "stock":"KED",
+    "name":"Kayne Anderson Energy Development Company",
+    "sector":"Financial",
+    "industry":"Asset Management"
+  },
+  {
+    "id":6068,
+    "stock":"KEF",
+    "name":"Korea Equity Fund Inc.",
+    "sector":"Financial",
+    "industry":"Closed-End Fund - Foreign"
+  },
+  {
+    "id":6069,
+    "stock":"KEG",
+    "name":"Key Energy Services Inc.",
+    "sector":"Basic Materials",
+    "industry":"Oil & Gas Drilling & Exploration"
+  },
+  {
+    "id":6070,
+    "stock":"KEI",
+    "name":"Keithley Instruments Inc.",
+    "sector":"Technology",
+    "industry":"Scientific & Technical Instruments"
+  },
+  {
+    "id":6071,
+    "stock":"KEP",
+    "name":"Korea Electric Power Corp.",
+    "sector":"Utilities",
+    "industry":"Electric Utilities"
+  },
+  {
+    "id":6072,
+    "stock":"KEX",
+    "name":"Kirby Corporation",
+    "sector":"Services",
+    "industry":"Shipping"
+  },
+  {
+    "id":6073,
+    "stock":"KEY",
+    "name":"KeyCorp",
+    "sector":"Financial",
+    "industry":"Money Center Banks"
+  },
+  {
+    "id":6074,
+    "stock":"KF",
+    "name":"The Korea Fund Inc.",
+    "sector":"Financial",
+    "industry":"Closed-End Fund - Foreign"
+  },
+  {
+    "id":6075,
+    "stock":"KFI",
+    "name":"KKR Financial Holdings LLC",
+    "sector":"Financial",
+    "industry":"Mortgage Investment"
+  },
+  {
+    "id":6076,
+    "stock":"KFS",
+    "name":"Kingsway Financial Services Inc.",
+    "sector":"Financial",
+    "industry":"Property & Casualty Insurance"
+  },
+  {
+    "id":6077,
+    "stock":"KFT",
+    "name":"Kraft Foods Inc.",
+    "sector":"Consumer Goods",
+    "industry":"Food - Major Diversified"
+  },
+  {
+    "id":6078,
+    "stock":"KFY",
+    "name":"Korn/Ferry International",
+    "sector":"Services",
+    "industry":"Staffing & Outsourcing Services"
+  },
+  {
+    "id":6079,
+    "stock":"KG",
+    "name":"King Pharmaceuticals Inc.",
+    "sector":"Healthcare",
+    "industry":"Drug Manufacturers - Other"
+  },
+  {
+    "id":6080,
+    "stock":"KGC",
+    "name":"Kinross Gold Corporation",
+    "sector":"Basic Materials",
+    "industry":"Gold"
+  },
+  {
+    "id":6083,
+    "stock":"KHI",
+    "name":"DWS High Income Trust",
+    "sector":"Financial",
+    "industry":"Closed-End Fund - Debt"
+  },
+  {
+    "id":6084,
+    "stock":"KIE",
+    "name":"SPDR KBW Insurance",
+    "sector":"Financial",
+    "industry":"Exchange Traded Fund"
+  },
+  {
+    "id":6085,
+    "stock":"KIM",
+    "name":"Kimco Realty Corporation",
+    "sector":"Financial",
+    "industry":"REIT - Retail"
+  }
+]
