@@ -23,14 +23,16 @@ We hope to deal with the following question
 
 ## What is your data about? Where does it come from? What attributes are you going to use? What is their meaning? What are their attribute types (data abstraction)? Do you plan to generate derived attributes? If yes, which and why?
 
-![image3](https://raw.githubusercontent.com/yogazh25/Group-5-StockTweets/master/msgTable.png)
-![image4](https://raw.githubusercontent.com/yogazh25/Group-5-StockTweets/master/stockTable.png)
-![image5](https://raw.githubusercontent.com/yogazh25/Group-5-StockTweets/master/userTable.png)
+![image3](https://raw.githubusercontent.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/master/assets/images/msgTable.png)
+![image4](https://raw.githubusercontent.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/master/assets/images/stockTable.png)
+![image5](https://raw.githubusercontent.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/master/assets/images/userTable.png)
 
 ## Final Visualization
 ##### 1.	Screenshots of final visualization
-![image1](https://raw.githubusercontent.com/yogazh25/Group-5-StockTweets/master/F1.png)
-![image2](https://raw.githubusercontent.com/yogazh25/Group-5-StockTweets/master/F2.png)
+
+![image1](https://raw.githubusercontent.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/master/assets/images/F1.png)
+![image2](https://raw.githubusercontent.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/master/assets/images/F2.png)
+
 ##### 2.	How to read it
 First of all, there is a global color bar on the top for the whole interface. The color hue is linear encoded from red to blue, representing ‘positive’ to ‘negative’. The reason we use color hue blue here rather than green is to make a distinction between mood and price.
 - 	Horizon Bar Chart: The X-axis represents for the total message number, the Y-axis represents for the top 10 sectors. Color is categorical and used to represent the positive and negative attitude. Users can see the improvement percentage after each bar. The value is the total message amount about the sector compared with number of last update. 
