@@ -22,6 +22,7 @@ Our project aims to develop a visual analytic platform to mine and visualize dat
 The systems has the following dependences:
 
 1. **Python**: 2.7
+2. **Heroku**
 
 ###Runing
 You may directly visit our online website. If you want to run it locally, you can clone the repository by:
