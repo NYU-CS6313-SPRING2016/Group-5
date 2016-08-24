@@ -12,8 +12,10 @@ Our project aims to develop a visual analytic platform to mine and visualize dat
 - 2.	What is the top hot sectors or stocks on the StockTwits?
 - 3.	What is the co-relation between the stocks and the changes of their market mood?
 - 4.	What kinds of traders are talking about the stock? What are their attitudes?
+- 
 ##Data Source
 [StockTwits API](http://stocktwits.com/developers)
+[Yahoo Finance API](https://pypi.python.org/pypi/yahoo-finance/1.1.4)
 
 ##Install Instructions
 ###Requirements
