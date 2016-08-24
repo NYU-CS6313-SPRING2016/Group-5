@@ -24,47 +24,21 @@ The systems has the following dependences:
 ###Runing
 You may directly visit our online website. If you want to run it locally, you can clone the repository by:
 ```sh
-git clone git@github.com:NYU-CS6313-SPRING2016/Group-7-StockTweets.git
+https://github.com/NYU-CS6313-SPRING2016/Group-5-StockTweets.git
 ```
 
-This project is based on Django framework. It is strongly recommended that you run it in [virtualenv](https://github.com/kennethreitz/python-guide/blob/master/docs/dev/virtualenvs.rst) to create isolated Python environments and install all dependencies.
 
-1. If virtualenv is not installed, install it via pip:
+1. Run the server for local test:
 
 	```sh
-		$ pip install virtualenv
+		$ cd Group-5-StockTweets
+		$ python stocktwitsFinal.py --num_twits 50
+		$ python stock_price.py --symbol_file maxsymbol.json
+		$ python -m SimpleHTTPServer 8000
 	```
 
-2. Create a virtual environment for a project:
+2. Then access to:
 
 	```sh
-		$ cd Group-7-StockTweets
-		$ virtualenv venv
-	```
-
-3. Install required packeges:
-
-	```sh
-		$ pip install -r requirements.txt
-	```
-
-
-4. To begin using the virtual environment, it needs to be activated:
-
-	```sh
-		$ source venv/bin/activate
-	```
-
-5. Run the server for local test:
-
-	```sh
-		$ python manage.py runserver
-	```
-
-	Then access to `localhost:8000/infovis`
-
-5. If you are done working in the virtual environment for the moment, you can deactivate it:
-
-	```sh
-		$ deactivate
+		 `localhost:8000/stocktwits`
 	```
