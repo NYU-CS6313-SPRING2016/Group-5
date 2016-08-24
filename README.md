@@ -1,5 +1,5 @@
 # Stocktwits -- real-time sentiment analysis
-![Screenshot](https://github.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/Screen Shot 2016-08-22 at 8.31.35 PM "Screenshot")
+![Screenshot](https://github.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/Screen Shot 2016-08-22 at 8.31.35 PM.png "Screenshot")
 
 
 
