@@ -1,10 +1,8 @@
 # Stocktwits -- real-time sentiment analysis
 ![Screenshot](https://github.com/NYU-CS6313-SPRING2016/Group-5-StockTweets/blob/master/Screen%20Shot%202016-08-22%20at%208.31.35%20PM.png)
-
-
-
-- Video: https://prezi.com/xza6pce6qwmm/stocktwits-dashboard/ 
+- Final Document: https://prezi.com/xza6pce6qwmm/stocktwits-dashboard/ 
 - Working demo: [STOCKTWITS.com](http://angelinazhao.com/stock/)
+- Video: https://vimeo.com/167449385
 
 
 ####Description
