@@ -4,7 +4,7 @@
 
 
 - Video: https://prezi.com/xza6pce6qwmm/stocktwits-dashboard/ 
-- Working demo: [STOCKTWITS](http://angelinazhao.com/stock/)
+- Working demo: [STOCKTWITS.com](http://angelinazhao.com/stock/)
 
 
 ####Description
